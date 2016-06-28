@@ -1,0 +1,98 @@
+california (0.4.0-4~vivid1) vivid; urgency=low
+
+  * Fix UI issue where date span of event could not be reduced (#744147)
+  * Add ftp, ftps support for WebCal
+  * Update translations
+
+ -- Jim Nelson <jim@yorba.org>  Mon, 23 Mar 2015 17:01:43 -0700
+
+
+california (0.3.1-1~utopic1) utopic; urgency=low
+
+  * Honor event's timezone when editing RRULEs (#741624)
+  * Prevent black background when using Unity (#742310)
+  * Assorted bug fixes
+  * Updated translations
+
+ -- Jim Nelson <jim@yorba.org>  Tue, 03 Feb 2015 13:26:49 -0800
+
+
+california (0.3.0-1~utopic1) utopic; urgency=low
+
+  * New Agenda view shows events as chronological list
+  * Set and honor default calendar
+  * Export event as .ics file
+  * Fix moving events between calendars
+  * Show and edit event attendees and organizer
+  * Send invites to attendees when editing event
+  * Fix nasty "Invalid DTSTAMP" problem: Bug #733319
+  * Various bug fixes
+  * Updated translations
+
+ -- Jim Nelson <jim@yorba.org>  Mon, 08 Dec 2014 16:03:34 -0800
+
+
+california (0.2.0-1~utopic2) utopic; urgency=low
+
+  * F1 Help (thanks to Jim Campbell)
+  * Migrate to GTK+ 3.12
+  * Quick Add improvements
+  * Display recurring event information as plain language summary
+  * Remove calendar from EDS
+  * Various UI improvements
+  * Updated translations
+
+ -- Jim Nelson <jim@yorba.org>  Tue, 30 Sep 2014 16:24:00 -0700
+
+
+california (0.1.4-1~saucy1) saucy; urgency=low
+
+  * Rebuild .c files when configuration changes
+  * Updated German translations
+
+ -- Jim Nelson <jim@yorba.org>  Tue, 19 Aug 2014 18:57:39 -0700
+
+
+california (0.1.3-1~saucy1) saucy; urgency=low
+
+  * Generic CalDAV support
+  * Numerous Quick Add parser improvements
+  * Use system/locale's defined first day of week
+  * Move events between calendars
+  * Improved event viewing and editing
+  * Various bug fixes and improvements
+  * Updated translations
+
+ -- Jim Nelson <jim@yorba.org>  Fri, 15 Aug 2014 15:58:13 -0700
+
+
+california (0.1.2-1~saucy1) saucy; urgency=low
+
+  * Create, remove, and update recurring events
+  * Quick Add parsing improvements
+  * Event description, location support
+  * Zoom display
+  * Various bug fixes
+  * Updated translations
+
+ -- Jim Nelson <jim@yorba.org>  Fri, 18 Jul 2014 13:33:20 -0700
+
+
+california (0.1.1-1~saucy1) saucy; urgency=low
+
+  * Added week view.
+  * Rename calendars in the calendar manager.
+
+ -- Jim Nelson <jim@yorba.org>  Fri, 23 May 2014 16:07:39 -0700
+
+
+california (0.1.0-1~saucy1) saucy; urgency=low
+
+  * First unstable release.
+  * Month view of Evolution Data Server (EDS) calendars.
+  * Add, remove, update events.
+  * Quick add (natural language parser) events.
+  * Add WebCal, Google calendars.
+
+ -- Jim Nelson <jim@yorba.org>  Tue, 29 Apr 2014 15:54:56 -0700
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/activator-generic-subscribe.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/activator-google-authenticating-pane.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/activator-google-calendar-list-pane.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/activator-google-login-pane.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/activator-instance-list.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/app-menu.interface</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/event-editor-attendees-card.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/event-editor-date-time-card.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/event-editor-date-time-widget.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/event-editor-main-card.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/event-editor-recurring-card.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/host-calendar-list-item.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/host-import-calendar.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/host-main-window-title.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/host-quick-create-event.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/host-show-event.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/manager-calendar-list.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/manager-calendar-list-item.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/manager-remove-calendar.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/view-agenda-date-row.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="false">rc/view-agenda-event-row.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/view-agenda-load-more-row.ui</file>
+    </gresource>
+    <gresource prefix="/org/yorba/california">
+        <file compressed="true">rc/window-menu.interface</file>
+    </gresource>
+</gresources>
+

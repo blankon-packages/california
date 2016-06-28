@@ -1,0 +1,1692 @@
+# Serbian translation for california.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2014.
+# Copyright (C) 2014 california's COPYRIGHT HOLDER
+# This file is distributed under the same license as the california package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: california master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=california&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-07 19:16+0000\n"
+"PO-Revision-Date: 2015-09-22 10:19+0200\n"
+"Last-Translator: Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : "
+"2;\n"
+"X-Project-Style: gnome\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Bookmarks: -1,186,134,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: ../data/california.appdata.xml.in.h:1
+msgid "GNOME 3 calendar"
+msgstr "Календар Гнома 3"
+
+#: ../data/california.appdata.xml.in.h:2
+msgid ""
+"California is a new calendar application for GNOME 3 designed to let you work with your calendars quickly and easily. It "
+"provides month and week views of your schedule and easy ways to add and update events, including a Quick Add feature which "
+"allows you to type the event details and have them added to your calendar without filling out a form."
+msgstr ""
+"Калифорнија је нови програм календара за Гном 3 осмишљен да вам омогући брз и лак рад са вашим календарима. Обезбеђује "
+"прегледе месеца и недеља вашег заказивања и лаке начине за додавање и освежавање догађаја, укључујући функцију брзог "
+"додавања која вам омогућава да укуцате појединости догађаја који ће бити додати вашем календару без да попуњавате образац."
+
+#: ../data/california.appdata.xml.in.h:3
+msgid "California is currently in beta development and has a limited but growing set of features:"
+msgstr "Калифорнија је тренутно у бета фази и има ограничен али растући скуп функција:"
+
+#: ../data/california.appdata.xml.in.h:4
+msgid "Modern, clean interface"
+msgstr "Савремено, чисто сучеље"
+
+#: ../data/california.appdata.xml.in.h:5
+msgid "Month and week view of your schedule"
+msgstr "Месечни и недељни преглед вашег заказивања"
+
+#: ../data/california.appdata.xml.in.h:6
+msgid "Quick setup (if any is required at all)"
+msgstr "Брзо подешавање (ако је уопште и потребно неко)"
+
+#: ../data/california.appdata.xml.in.h:7
+msgid "Integrates with Evolution Data Server"
+msgstr "Обједињује се са сервером података Еволуције"
+
+#: ../data/california.appdata.xml.in.h:8
+msgid "Quickly add events with a natural-language parser"
+msgstr "Брзо додавање догађаја са природно-језичким обрађивачем"
+
+#: ../data/california.appdata.xml.in.h:9
+msgid "Works with Google, WebCal, and CalDAV servers"
+msgstr "Ради са Гуглом, Веб позивом, и КолДАВ серверима"
+
+#: ../data/california.desktop.in.in.h:1 ../src/application/california-application.vala:19
+msgid "California"
+msgstr "Калифорнија"
+
+#: ../data/california.desktop.in.in.h:2 ../src/application/california-application.vala:20
+msgid "GNOME 3 Calendar"
+msgstr "Календар Гнома 3"
+
+#: ../data/california.desktop.in.in.h:3
+msgid "Event;Events;Schedule;"
+msgstr "догађај;догађаји;заказано;"
+
+#: ../src/activator/activator.vala:36
+msgid "Web calendar (.ics or webcal:)"
+msgstr "Веб календар (.ics или webcal:)"
+
+#: ../src/activator/activator.vala:37
+msgid "Google Calendar"
+msgstr "Гуглов календар"
+
+#: ../src/activator/activator.vala:38
+msgid "CalDAV"
+msgstr "КолДАВ (CalDAV)"
+
+#: ../src/activator/generic/generic-subscribe.vala:100
+#, c-format
+msgid "Unable to subscribe to calendar at %s: %s"
+msgstr "Не могу да се упишем на календар на „%s“: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:89 ../src/rc/activator-google-authenticating-pane.ui.h:3
+msgid "Authenticating…"
+msgstr "Пријављујем се..."
+
+#: ../src/activator/google/google-authenticating-pane.vala:97
+msgid "Unable to authenticate with Google Calendar service"
+msgstr "Не могу да се пријавим на услугу Гугловог календара"
+
+#: ../src/activator/google/google-authenticating-pane.vala:105
+msgid "Unable to authenticate: Incorrect account name or password"
+msgstr "Не могу да се пријавим: неисправна е-адреса или лозинка"
+
+#: ../src/activator/google/google-authenticating-pane.vala:107
+#, c-format
+msgid "Unable to authenticate: %s"
+msgstr "Не могу да се пријавим: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:125
+#, c-format
+msgid "Unable to retrieve calendar list: %s"
+msgstr "Не могу да довучем списак календара: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:131
+msgid "Authenticated"
+msgstr "Пријава успешна"
+
+#. "None" as in "no people"
+#: ../src/activator/google/google-calendar-list-pane.vala:65 ../src/event-editor/event-editor-main-card.vala:201
+msgid "None"
+msgstr "Ништа"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:158
+#, c-format
+msgid "Bad Google URI \"%s\""
+msgstr "Лоша Гугл адреса „%s“"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:166 ../src/activator/google/google-calendar-list-pane.vala:188
+#, c-format
+msgid "Unable to subscribe to %s: %s"
+msgstr "Не могу да се претплатим на „%s“: %s"
+
+#: ../src/application/california-application.vala:21
+msgid "Copyright 2014-2015 Yorba Foundation"
+msgstr "Право на умножавање 2014-2015 Јорба Фондација"
+
+#: ../src/application/california-application.vala:23
+msgid "Visit California's home page"
+msgstr "Посетите матичну страницу Калифорније"
+
+#: ../src/application/california-application.vala:187
+#, c-format
+msgid "Unable to open California: %s"
+msgstr "Не могу да отворим Калифорнију: %s"
+
+#: ../src/application/california-application.vala:324
+#, c-format
+msgid "About %s"
+msgstr "О програму %s"
+
+#. Translators: add your name and email address to receive credit in the About dialog
+#. For example: Yamada Taro <yamada.taro@example.com>
+#: ../src/application/california-application.vala:330
+msgid "translator-credits"
+msgstr ""
+"Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>\n"
+"\n"
+"http://prevod.org — превод на српски језик"
+
+#: ../src/application/california-commandline.vala:9
+msgid "[.ics FILE...]"
+msgstr "[.ics ДАТОТЕКА...]"
+
+#: ../src/application/california-commandline.vala:15
+msgid "Display program version"
+msgstr "Приказује издање програма"
+
+#: ../src/application/california-commandline.vala:32
+msgid "To log debug to standard out:"
+msgstr "За бележење грешака на стандардни излаз:"
+
+#: ../src/application/california-commandline.vala:33
+msgid "$ G_MESSAGES_DEBUG=all california"
+msgstr "$ G_MESSAGES_DEBUG=all california"
+
+#: ../src/application/california-commandline.vala:34
+msgid "Please report problems and requests to:"
+msgstr "Известите о проблемима и захтевима на:"
+
+#: ../src/application/california-commandline.vala:40
+#, c-format
+msgid "Unknown options: %s\n"
+msgstr "Непознате опције: %s\n"
+
+#. Prints a span of dates, i.e. "Monday, January 3 to Thursday, January 6"
+#. A span of time, i.e. "3:30pm to 4:30pm"
+#. date formatting: "<Start Date> to <End Date>"
+#: ../src/calendar/calendar-date-span.vala:95 ../src/calendar/calendar-exact-time-span.vala:184
+#: ../src/view/week/week-controller.vala:192
+#, c-format
+msgid "%s to %s"
+msgstr "од %s до %s"
+
+#: ../src/calendar/calendar-date.vala:387
+msgid "Today"
+msgstr "Данас"
+
+#. See get_day_of_week_of_month().
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "last Monday"
+msgstr "прошли понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "first Monday"
+msgstr "први понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "second Monday"
+msgstr "други понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "third Monday"
+msgstr "трећи понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fourth Monday"
+msgstr "четврти понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fifth Monday"
+msgstr "пети понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "last Tuesday"
+msgstr "последњи понедељак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "first Tuesday"
+msgstr "први уторак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "second Tuesday"
+msgstr "други уторак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "third Tuesday"
+msgstr "трећи уторак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fourth Tuesday"
+msgstr "четврти уторак"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fifth Tuesday"
+msgstr "пети уторак"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "last Wednesday"
+msgstr "последња среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "first Wednesday"
+msgstr "прва среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "second Wednesday"
+msgstr "друга среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "third Wednesday"
+msgstr "трећа среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fourth Wednesday"
+msgstr "четврта среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fifth Wednesday"
+msgstr "пета среда"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "last Thursday"
+msgstr "последњи четвртак"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "first Thursday"
+msgstr "први четвртак"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "second Thursday"
+msgstr "други четвртак"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "third Thursday"
+msgstr "трећи четвратк"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fourth Thursday"
+msgstr "четврти четвртак"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fifth Thursday"
+msgstr "пети четвртак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "last Friday"
+msgstr "последњи петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "first Friday"
+msgstr "први петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "second Friday"
+msgstr "други петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "third Friday"
+msgstr "трећи петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fourth Friday"
+msgstr "четврти петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fifth Friday"
+msgstr "пети петак"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "last Saturday"
+msgstr "последња субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "first Saturday"
+msgstr "прва субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "second Saturday"
+msgstr "друга субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "third Saturday"
+msgstr "трећа субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fourth Saturday"
+msgstr "четврта субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fifth Saturday"
+msgstr "пета субота"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "last Sunday"
+msgstr "последња недеља"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "first Sunday"
+msgstr "прва недеља"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "second Sunday"
+msgstr "друга недеља"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "third Sunday"
+msgstr "трећа недеља"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fourth Sunday"
+msgstr "четврта недеља"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fifth Sunday"
+msgstr "пета недеља"
+
+#. A span of time followed by the timezone, i.e. "3:30pm to 4:30pm EST"
+#: ../src/calendar/calendar-exact-time-span.vala:187
+#, c-format
+msgid "%s to %s %s"
+msgstr "од %s до %s %s"
+
+#. A span of time with each timezone's indicated, i.e.
+#. "12:30AM EDT to 2:30PM EST"
+#: ../src/calendar/calendar-exact-time-span.vala:192
+#, c-format
+msgid "%s %s to %s %s"
+msgstr "од %s %s до %s %s"
+
+#. Single-day timed event, print "<full date>, <full start time> to <full end time>",
+#. including year if not current year
+#. Date and time, i.e. "September 13, 4:30pm"
+#: ../src/calendar/calendar-exact-time-span.vala:200
+#, c-format
+msgid "%s, %s"
+msgstr "%s, у %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm
+#. 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:209
+#, c-format
+msgid ""
+"%s, %s\n"
+"%s, %s"
+msgstr ""
+"%s, %s\n"
+"%s, %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year,
+#. *and* including timezone
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm PST
+#. 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:221
+#, c-format
+msgid ""
+"%s, %s %s\n"
+"%s, %s %s"
+msgstr ""
+"%s, у %s %s\n"
+"%s, у %s %s"
+
+#. Prints full time and date strings on a single line with timezone, i.e.:
+#. 12 January 2012, 3:30pm PST to 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:233
+#, c-format
+msgid "%s, %s %s to %s, %s %s"
+msgstr "од %s, у %s %s до %s, у %s %s"
+
+#. Prints full time and date strings on a single line, i.e.:
+#. 12 January 2012, 3:30pm to 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:244
+#, c-format
+msgid "%s, %s to %s, %s"
+msgstr "од %s, %s до %s, %s"
+
+#. The month and year according to locale preferences, i.e. "March 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:114
+#, no-c-format
+msgid "%B %Y"
+msgstr "%B %Y."
+
+#. The abbreviated month and year according to locale preferences, i.e. "Mar 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:119
+#, no-c-format
+msgid "%b %Y"
+msgstr "%b. %Y."
+
+#. A "pretty" date according to locale preferences, i.e. "Monday, March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:124
+#, no-c-format
+msgid "%A, %B %e, %Y"
+msgstr "%A, %e. %B %Y."
+
+#. A "pretty" date with no year according to locale preferences, i.e. "Monday, March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:129
+#, no-c-format
+msgid "%A, %B %e"
+msgstr "%A, %e. %B"
+
+#. A "pretty" date abbreviated according to locale preferences, i.e. "Mon, Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:134
+#, no-c-format
+msgid "%a, %b %e, %Y"
+msgstr "%a, %e. %b %Y."
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e.
+#. "Mon, Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:140
+#, no-c-format
+msgid "%a, %b %e"
+msgstr "%a, %e. %b."
+
+#. A "pretty" date with no day of week according to locale preferences, i.e. "March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:145
+#, no-c-format
+msgid "%B %e, %Y"
+msgstr "%e. %B %Y."
+
+#. A "pretty" date abbreviated with no day of week according to locale preferences,
+#. i.e. "Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:151
+#, no-c-format
+msgid "%b %e, %Y"
+msgstr "%e. %b. %Y."
+
+#. A "pretty" date with no day of week or year according to locale preferences, i.e. "March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:156
+#, no-c-format
+msgid "%B %e"
+msgstr "%e. %B"
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:162
+#, no-c-format
+msgid "%b %e"
+msgstr "%e. %b."
+
+#. A "pretty" date compacted according to locale preferences, i.e. "Mon 3/10/2014"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:168
+#, no-c-format
+msgid "%a %x"
+msgstr "%a, %x"
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e. "Mon 3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:174
+#, no-c-format
+msgid "%a %m/%d"
+msgstr "%a, %m/%d"
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:181
+#, no-c-format
+msgid "%m/%d"
+msgstr "%m/%d"
+
+#. Ante meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:186
+msgid "am"
+msgstr "прп"
+
+#. Brief ante meridiem, i.e. "am" -> "a"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:191
+msgid "a"
+msgstr "пр"
+
+#. Post meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:196
+msgid "pm"
+msgstr "поп"
+
+#. Brief post meridiem, i.e. "pm" -> "p"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:201
+msgid "p"
+msgstr "по"
+
+#. The 12-hour time with minute and meridiem ("am" or "pm"), i.e. "5:06pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:206
+#, c-format
+msgid "%d:%02d%s"
+msgstr "%d:%02d %s"
+
+#. The 12-hour time with minute, seconds, and meridiem ("am" or "pm"), i.e. "5:06:31pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:211
+#, c-format
+msgid "%d:%02d:%02d%s"
+msgstr "%d:%02d:%02d %s"
+
+#. The 24-hour time with minutes, i.e. "17:06"
+#: ../src/calendar/calendar.vala:214
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. The 24-hour time with minutes and seconds, i.e. "17:06:31"
+#: ../src/calendar/calendar.vala:217
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Used by quick-add to indicate the user wants to create an event at midnight.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:227
+msgid "midnight"
+msgstr "поноћ"
+
+#. Used by quick-add to indicate the user wants to create an event at noon.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:231
+msgid "noon"
+msgstr "подне"
+
+#. Used by quick-add to indicate the user wants to create an event for today.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:72
+msgid "today"
+msgstr "данас"
+
+#. Used by quick-add to indicate the user wants to create an event for tomorrow.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:76
+msgid "tomorrow"
+msgstr "сутра"
+
+#. Used by quick-add to indicate the user wants to create an event for yesterday.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:80
+msgid "yesterday"
+msgstr "јуче"
+
+#. Used by quick-add to indicate the user wants to create a daily recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:84
+msgid "daily"
+msgstr "дневно"
+
+#. Used by quick-add to indicate the user wants to create a weekly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:88
+msgid "weekly"
+msgstr "недељно"
+
+#. Used by quick-add to indicate the user wants to create a yearly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:92
+msgid "yearly"
+msgstr "годишње"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekday
+#. (in most Western countries, this means Monday through Friday, i.e. the work week)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:99
+msgid "weekday;weekdays;"
+msgstr "радни дан;радне дане;"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekend
+#. (in most Western countries, this means Saturday and Sunday, i.e. non-work days)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:106
+msgid "weekend;weekends;"
+msgstr "викенд;викенде;"
+
+#. Used by quick-add to convert a user's years unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:111
+msgid "year;years;yr;yrs;"
+msgstr "година;године;годину;годино;год;г;godina;godine;godinu;godino;god;g;"
+
+#. Used by quick-add to convert a user's month unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:116
+msgid "month;months;mo;mos;"
+msgstr "месец;месеца;месеци;м;мес;mesec;meseca;meseci;m;mes;"
+
+#. Used by quick-add to convert a user's week unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:121
+msgid "week;weeks;wk;weeks;"
+msgstr "недеља;недеље;недељи;нед;н;nedelja;nedelje;nedeljni;ned;n;"
+
+#. Used by quick-add to convert a user's day unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:126
+msgid "day;days;"
+msgstr "дан;дани;дана;д;dan;dani;dana;d;"
+
+#. Used by quick-add to convert a user's hours unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:131
+msgid "hour;hours;hr;hrs"
+msgstr "сат;сати;сата;с;час;часови;часова;ч;sat;sati;sata;s;čas;časovi;čas;č;cas;casovi;cas;c;h;"
+
+#. Used by quick-add to convert a user's minute unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:136
+msgid "minute;minutes;min;mins"
+msgstr "минут;минута;минути;мин;м;minut;minuta;minuti;min;m;"
+
+#. Used by quick-add to determine if the word is a COMMON preposition (indicating linkage or a
+#. connection).  Each word must be separate by semi-colons.
+#. These words should not be duplicated in another other preposition list.
+#. This list can be empty but that will limit the parser or cause unexpected results.
+#. Examples: "wednesday and thursday", "monday or friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:144
+msgid "and;or;"
+msgstr "и;или;"
+
+#. Used by quick-add to determine if the word is a TIME preposition (indicating a
+#. specific time of day, not a duration).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "at 9am", "from 10pm to 11:30pm", "on monday", "until June 3rd", "this Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:153
+msgid "at;from;to;on;until;this;"
+msgstr "у;од;до;на;до овог;до ове;u;od;do;na;do ovog; do ove;"
+
+#. Used by quick-add to determine if the word is a DURATION preposition (indicating a
+#. a duration of time, not a specific time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "for 3 hours", "for 90 minutes"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:162
+msgid "for;"
+msgstr "за;"
+
+#. Used by quick-add to determine if the word is a DELAY preposition (indicating a specific
+#. time from the current moment).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "in 3 hours" (meaning 3 hours from now)
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:171
+msgid "in;"
+msgstr "за;"
+
+#. Used by quick-add to determine if the word is a RECURRING preposition (indicating a
+#. regular occurrance in time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in the location
+#. prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "every 3 days", "every Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:180
+msgid "every;"
+msgstr "сваког;сваке;svakog;svake;"
+
+#. Used by quick-add to determine if the word is a LOCATION preposition (indicating a
+#. specific place).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in
+#. the time prepositions list (elsewhere).  The list can be empty, but that will limit the
+#. parser.
+#. Example: "at supermarket", "at Eiffel Tower"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:189
+msgid "at;"
+msgstr "у;на;код;"
+
+#. Used by quick-add to strip date numbers of common ordinal suffices.  Each word must be
+#. separated by semi-colons.
+#. The list can be empty, but that will limit the parser if your language supports ordinal
+#. suffixes.
+#. Example: "1st", "2nd", "3rd", "4th"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:197
+msgid "st;nd;rd;th"
+msgstr "°;"
+
+#: ../src/component/component-recurrence-rule.vala:599
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d дан"
+msgstr[1] "%d дана"
+msgstr[2] "%d дана"
+msgstr[3] "%d дан"
+
+#: ../src/component/component-recurrence-rule.vala:602
+#, c-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d недеља"
+msgstr[1] "%d недеље"
+msgstr[2] "%d недеља"
+msgstr[3] "једна недеља"
+
+#: ../src/component/component-recurrence-rule.vala:613
+#, c-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d месец"
+msgstr[1] "%d месеца"
+msgstr[2] "%d месеци"
+msgstr[3] "један месец"
+
+#: ../src/component/component-recurrence-rule.vala:621
+#, c-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d година"
+msgstr[1] "%d године"
+msgstr[2] "%d година"
+msgstr[3] "једна година"
+
+#. As in, "Repeats every day, 2 times"
+#: ../src/component/component-recurrence-rule.vala:636
+#, c-format
+msgid "Repeats every %s, %s"
+msgstr "Понови сваког %s, %s"
+
+#: ../src/component/component-recurrence-rule.vala:637 ../src/component/component-recurrence-rule.vala:720
+#: ../src/component/component-recurrence-rule.vala:765 ../src/component/component-recurrence-rule.vala:805
+#: ../src/component/component-recurrence-rule.vala:842
+#, c-format
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] "%d пут"
+msgstr[1] "%d пута"
+msgstr[2] "%d пута"
+msgstr[3] "једном"
+
+#. As in, "Repeats every week until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:643
+#, c-format
+msgid "Repeats every %s until %s"
+msgstr "понавља се сваке %s до %s"
+
+#. As in, "Repeats every month until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:650
+#, c-format
+msgid "Repeats every %s until %s, %s"
+msgstr "понавља се сваког %s до %s, у %s"
+
+#. As in, "Repeats every day"
+#: ../src/component/component-recurrence-rule.vala:657
+#, c-format
+msgid "Repeats every %s"
+msgstr "Понавља се сваког %s"
+
+#. look for expressible patterns
+#: ../src/component/component-recurrence-rule.vala:679
+msgid "every day"
+msgstr "сваког дана"
+
+#: ../src/component/component-recurrence-rule.vala:684
+msgid "the weekend"
+msgstr "викендом"
+
+#: ../src/component/component-recurrence-rule.vala:689
+msgid "weekdays"
+msgstr "викендима"
+
+#. Separator between days of the week, i.e. "Monday, Tuesday, Wednesday"
+#: ../src/component/component-recurrence-rule.vala:697
+msgid ", "
+msgstr ", "
+
+# Овде ће бити великих мука око мењања речи „сваки“ у зависности од тога да ли је следећа реч „месец“, неки дан или година. :(
+#. As in, "Repeats every week on Monday, Tuesday, 3 times"
+#. As in, "Repeats every month on day 4, 3 times"
+#. As in, "Repeats every year on 3 March 2014, 2 times"
+#: ../src/component/component-recurrence-rule.vala:719 ../src/component/component-recurrence-rule.vala:804
+#: ../src/component/component-recurrence-rule.vala:841
+#, c-format
+msgid "Repeats every %s on %s, %s"
+msgstr "Понавља се сваке %s на %s, у %s"
+
+#. As in, "Repeats every week on Thursday until Sept. 2, 2014"
+#. As in, "Repeats every month on day 21 until Sept. 2, 2014"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:726 ../src/component/component-recurrence-rule.vala:811
+#: ../src/component/component-recurrence-rule.vala:848
+#, c-format
+msgid "Repeats every %s on %s until %s"
+msgstr "Понавља се сваке %s на %s све до %s"
+
+#. As in, "Repeats every week on Friday, Saturday until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every month on day 20 until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:733 ../src/component/component-recurrence-rule.vala:818
+#: ../src/component/component-recurrence-rule.vala:855
+#, c-format
+msgid "Repeats every %s on %s until %s, %s"
+msgstr "Понавља се сваке %s на %s све до %s, у %s"
+
+#. As in, "Repeats every week on Monday, Wednesday, Friday"
+#. As in, "Repeats every month on day 5"
+#. As in, "Repeats every year on 3 March 2014"
+#: ../src/component/component-recurrence-rule.vala:740 ../src/component/component-recurrence-rule.vala:825
+#: ../src/component/component-recurrence-rule.vala:862
+#, c-format
+msgid "Repeats every %s on %s"
+msgstr "Понавља се сваке %s на %s"
+
+#. As in, "Repeats every month on the first Tuesday, 3 times"
+#: ../src/component/component-recurrence-rule.vala:764
+#, c-format
+msgid "Repeats every %s on the %s, %s"
+msgstr "Понавља се сваке %s на %s, %s"
+
+#. As in, "Repeats every month on the second Monday until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:771
+#, c-format
+msgid "Repeats every %s on the %s until %s"
+msgstr "Понавља се сваког %s на %s све до %s"
+
+#. As in, "Repeats every month on the last Friday until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:778
+#, c-format
+msgid "Repeats every %s on the %s until %s, %s"
+msgstr "Понавља се сваког %s на %s све до %s, у %s"
+
+#. As in, "Repeats every month on the third Tuesday"
+#: ../src/component/component-recurrence-rule.vala:785
+#, c-format
+msgid "Repeats every %s on the %s"
+msgstr "Понавља се сваког %s на %s"
+
+#. As in, "Repeats on day 4 of the month"
+#: ../src/component/component-recurrence-rule.vala:800
+#, c-format
+msgid "day %d"
+msgstr "дан %d"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Send invite"
+msgstr "Пошаљи позивницу"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Don't send invite"
+msgstr "Не шаљи позивницу"
+
+#: ../src/event-editor/event-editor-main-card.vala:74 ../src/event-editor/event-editor-main-card.vala:77
+#: ../src/host/host-show-event.vala:92 ../src/host/host-show-event.vala:299 ../src/rc/activator-generic-subscribe.ui.h:5
+#: ../src/rc/activator-google-authenticating-pane.ui.h:1 ../src/rc/activator-google-calendar-list-pane.ui.h:2
+#: ../src/rc/activator-google-login-pane.ui.h:1 ../src/rc/activator-instance-list.ui.h:1
+#: ../src/rc/event-editor-attendees-card.ui.h:10 ../src/rc/event-editor-date-time-card.ui.h:4
+#: ../src/rc/event-editor-recurring-card.ui.h:24 ../src/rc/host-import-calendar.ui.h:1
+#: ../src/rc/manager-remove-calendar.ui.h:1
+msgid "_Cancel"
+msgstr "_Откажи"
+
+#: ../src/event-editor/event-editor-main-card.vala:75
+msgid "Save A_ll Events"
+msgstr "Сачувај _све догађаје"
+
+#: ../src/event-editor/event-editor-main-card.vala:76
+msgid "Save _This Event"
+msgstr "Сачувај _овај догађај"
+
+#: ../src/event-editor/event-editor-main-card.vala:212
+msgid "It's complicated…"
+msgstr "Замршено је…"
+
+#: ../src/event-editor/event-editor-main-card.vala:215
+msgid "Never"
+msgstr "Никада"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "_Save"
+msgstr "_Сачувај"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "C_reate"
+msgstr "_Направи"
+
+#. Email address followed by common separator, i.e. "alice@example.com, bob@example.com"
+#. Email separator, i.e. "alice@example.com, bob@example.com"
+#: ../src/event-editor/event-editor-main-card.vala:250 ../src/event-editor/event-editor-main-card.vala:605
+#, c-format
+msgid "%s, "
+msgstr "%s, "
+
+#: ../src/event-editor/event-editor-main-card.vala:370 ../src/host/host-quick-create-event.vala:171
+msgid "Unable to create event: calendar must be specified"
+msgstr "Не могу да направим догађај: календар мора бити наведен"
+
+#: ../src/event-editor/event-editor-main-card.vala:391 ../src/host/host-quick-create-event.vala:190
+#, c-format
+msgid "Unable to create event: %s"
+msgstr "Не могу да направим догађај: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:396
+msgid "Unable to update event: calendar must be specified"
+msgstr "Не могу да освежим догађај: календар мора бити наведен"
+
+#: ../src/event-editor/event-editor-main-card.vala:445
+#, c-format
+msgid "Unable to update event: %s"
+msgstr "Не могу да освежим догађај: %s"
+
+#. "invite.ics" is the name of the file for an event invite delivered via email ...
+#. please translate but keep the .ics extension, as that's common to most calendar
+#. applications
+#: ../src/event-editor/event-editor-main-card.vala:474
+msgid "invite.ics"
+msgstr "позивница.ics"
+
+#: ../src/event-editor/event-editor-main-card.vala:481
+#, c-format
+msgid "Unable to export .ics to %s: %s"
+msgstr "Не могу да извезем ицс датотеку у %s: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Event invitation"
+msgstr "Позивница за догађај"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Updated event invitation"
+msgstr "Исправљена позивница за догађај"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Invitation: %s"
+msgstr "Позивница: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Updated invitation: %s"
+msgstr "Исправљена позивница: %s"
+
+#. Invitation: <summary> at <location>
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Invitation: %s at %s"
+msgstr "Позивница: %s. Место:  %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Updated invitation: %s at %s"
+msgstr "Исправљена позивница: %s. Место: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:522
+#, c-format
+msgid "Unable to launch mail client: %s"
+msgstr "Не могу да покренем клијента за е-пошту: %s"
+
+# Обично се приликом слања е-поруке (мејла) користи израз „Поштовани“. Барем је то случај у источном делу Србије.
+#. Salutations for an email
+#: ../src/event-editor/event-editor-main-card.vala:530
+msgid "Hello,"
+msgstr "Поштовани,"
+
+#: ../src/event-editor/event-editor-main-card.vala:533
+msgid "Attached is an invitation to a new event:"
+msgstr "Закачена је позивница на нови догађај:"
+
+#: ../src/event-editor/event-editor-main-card.vala:534
+msgid "Attached is an updated event invitation:"
+msgstr "Закачена је исправљена позивница на догађај:"
+
+#. Date/time of an event
+#: ../src/event-editor/event-editor-main-card.vala:550
+#, c-format
+msgid "When: %s"
+msgstr "Када: %s"
+
+#. Location
+#. Location of an event
+#: ../src/event-editor/event-editor-main-card.vala:563
+#, c-format
+msgid "Where: %s"
+msgstr "Где: %s"
+
+#. Who organized (scheduled or planned) the event
+#: ../src/event-editor/event-editor-main-card.vala:573
+#, c-format
+msgid "Organizer: %s"
+msgstr "Организатор: %s"
+
+#. People attending event
+#: ../src/event-editor/event-editor-main-card.vala:583
+#, c-format
+msgid "Guest: %s"
+msgid_plural "Guests: %s"
+msgstr[0] "Гост: %s"
+msgstr[1] "Госта: %s"
+msgstr[2] "Гостију: %s"
+msgstr[3] "Један гост"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:443
+msgid "month"
+msgid_plural "months"
+msgstr[0] "месец"
+msgstr[1] "месеца"
+msgstr[2] "месеци"
+msgstr[3] "један месец"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:447
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "недеља"
+msgstr[1] "недеље"
+msgstr[2] "недеља"
+msgstr[3] "једна недеља"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:451
+msgid "year"
+msgid_plural "years"
+msgstr[0] "година"
+msgstr[1] "године"
+msgstr[2] "година"
+msgstr[3] "једна година"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:456
+msgid "day"
+msgid_plural "days"
+msgstr[0] "дан"
+msgstr[1] "дана"
+msgstr[2] "дана"
+msgstr[3] "један дан"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:468
+msgid "event"
+msgid_plural "events"
+msgstr[0] "догађај"
+msgstr[1] "догађаја"
+msgstr[2] "догађаја"
+msgstr[3] "један догађај"
+
+#: ../src/host/host-import-calendar.vala:33
+msgid "Select calendar to import event into:"
+msgid_plural "Select calendar to import events into:"
+msgstr[0] "У који календар ће се увести догађај:"
+msgstr[1] "У који календар ће се увести догађаји:"
+msgstr[2] "У који календар ће се увести догађаји:"
+msgstr[3] "У који календар ће се увести један догађај:"
+
+#: ../src/host/host-main-window.vala:98
+msgid "_Today"
+msgstr "_Данас"
+
+#: ../src/host/host-main-window.vala:167
+msgid "Jump to today's date (Ctrl+T)"
+msgstr "Иди на данашњи датум (Ctrl+Т)"
+
+#: ../src/host/host-main-window.vala:185
+msgid "Quick add event (Ctrl+N)"
+msgstr "Брзо додај догађај (Ctrl+N)"
+
+#: ../src/host/host-main-window.vala:191
+msgid "Calendars (Ctrl+L)"
+msgstr "Календари (Ctrl+L)"
+
+#: ../src/host/host-main-window.vala:506
+#, c-format
+msgid "Unable to edit event: %s"
+msgstr "Не могу да уредим догађај: %s"
+
+#: ../src/host/host-quick-create-event.vala:79
+msgid "Example: Dinner at Tadich Grill 7:30pm"
+msgstr "Пример: Пецање на моравским плићацима у 7:30 поп"
+
+#: ../src/host/host-quick-create-event.vala:81
+msgid "Example: Dinner at Tadich Grill"
+msgstr "Пример: Пецање на моравским плићацима"
+
+#: ../src/host/host-quick-create-event.vala:85
+msgid "Example: Dinner at Tadich Grill 7:30pm tomorrow"
+msgstr "Пример: Пецање на моравским плићацима сутра у 7:30 поп"
+
+#: ../src/host/host-quick-create-event.vala:99
+#, c-format
+msgid "Error opening help: %s"
+msgstr "Грешка отварања помоћи: %s"
+
+#: ../src/host/host-show-event.vala:87
+msgid "Delete"
+msgstr "Обриши"
+
+#: ../src/host/host-show-event.vala:88
+msgid "A_ll Events"
+msgstr "_Све догађаје"
+
+#: ../src/host/host-show-event.vala:89
+msgid "_This Event"
+msgstr "_Овај догађај"
+
+#: ../src/host/host-show-event.vala:91
+msgid "This & _Future Events"
+msgstr "Овај и _будуће догађаје"
+
+#: ../src/host/host-show-event.vala:98
+msgid "Edit event"
+msgstr "Уреди догађај"
+
+#: ../src/host/host-show-event.vala:99 ../src/host/host-show-event.vala:297
+msgid "Export event as .ics"
+msgstr "Извезите догађај као „.ics“"
+
+#: ../src/host/host-show-event.vala:100
+msgid "Delete event"
+msgstr "Обриши догађај"
+
+#: ../src/host/host-show-event.vala:174 ../src/rc/event-editor-attendees-card.ui.h:2 ../src/rc/event-editor-main-card.ui.h:12
+msgid "Organizer"
+msgid_plural "Organizers"
+msgstr[0] "Организатор"
+msgstr[1] "Организатора"
+msgstr[2] "Организатора"
+msgstr[3] "Један организатор"
+
+#: ../src/host/host-show-event.vala:185
+msgid "Guest"
+msgid_plural "Guests"
+msgstr[0] "Гост"
+msgstr[1] "Госта"
+msgstr[2] "Гостију"
+msgstr[3] "Један гост"
+
+#: ../src/host/host-show-event.vala:300
+msgid "E_xport"
+msgstr "_Извези"
+
+#. This is the suggested filename for saving (exporting) an event.  The .ics file extension
+#. should always be present no matter the translation, as many systems rely on it to detect
+#. the file type
+#: ../src/host/host-show-event.vala:304
+msgid "event.ics"
+msgstr "догађај.ics"
+
+#: ../src/host/host-show-event.vala:311
+msgid "Export _master event"
+msgstr "Извезите _главни догађај"
+
+#: ../src/host/host-show-event.vala:333
+#, c-format
+msgid "Unable to export event as file: %s"
+msgstr "Не могу да извезем догађај као датотеку: %s"
+
+#. No number is supplied because the number of events removed is indefinite in certain
+#. situations ... plural text should simply be for "more than one"
+#: ../src/host/host-show-event.vala:360
+#, c-format
+msgid "Unable to remove event: %s"
+msgid_plural "Unable to remove events: %s"
+msgstr[0] "Не могу да уклоним догађај: %s"
+msgstr[1] "Не могу да уклоним догађаје: %s"
+msgstr[2] "Не могу да уклоним догађаје: %s"
+msgstr[3] "Не могу да дивучем списак календара: %s"
+
+#: ../src/manager/manager-calendar-list-item.vala:92
+msgid "Calendar is read-only"
+msgstr "Календар је само за читање"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+msgid "Calendar is default"
+msgstr "Календар је основни"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+msgid "Make this calendar default"
+msgstr "Учини овај календар основним"
+
+#: ../src/manager/manager-calendar-list-item.vala:117
+msgid "Server sends event invitations"
+msgstr "Сервер шаље позивнице за догађај"
+
+#: ../src/manager/manager-calendar-list-item.vala:118
+msgid "Server does not send event invitations"
+msgstr "Сервер не шаље позивнице за догађај"
+
+#: ../src/manager/manager-remove-calendar.vala:39
+#, c-format
+msgid "This will remove the %s local calendar from your computer.  All associated information will be deleted permanently."
+msgstr "Ово ће уклонити „%s“ месни календар са вашег рачунара.  Сви придружени подаци ће бити трајно уклоњени."
+
+#: ../src/manager/manager-remove-calendar.vala:41
+#, c-format
+msgid "This will remove the %s network calendar from your computer.  This will not affect information stored on the server."
+msgstr "Ово ће уклонити „%s“ мрежни календар са вашег рачунара. Ово неће утицати на податке смештене на серверу."
+
+#: ../src/manager/manager-remove-calendar.vala:74
+#, c-format
+msgid "Unable to remove calendar: %s"
+msgstr "Не могу да уклоним календар: %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/agenda/agenda-controller.vala:33
+msgid "Agenda"
+msgstr "Дневни ред"
+
+#: ../src/view/agenda/agenda-event-row.vala:109
+msgid "All day"
+msgstr "Цео дан"
+
+#. %s is a date, i.e. "Showing events until December 5, 2014"
+#: ../src/view/agenda/agenda-load-more-row.vala:38
+#, c-format
+msgid "Showing events until %s"
+msgstr "Приказујем догађаје до датума %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/month/month-controller.vala:51
+msgid "Month"
+msgstr "Месец"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/week/week-controller.vala:42
+msgid "Week"
+msgstr "Седмица"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:1
+msgid "Calendar _name"
+msgstr "Назив _календара"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:2
+msgid "_URL"
+msgstr "_Адреса"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:3 ../src/rc/manager-calendar-list-item.ui.h:1
+msgid "Calendar color"
+msgstr "Боја календара"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:4
+msgid "Select a color for the calendar"
+msgstr "Изаберите боју за календар"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:6 ../src/rc/activator-google-calendar-list-pane.ui.h:3
+msgid "_Subscribe"
+msgstr "_Упиши се"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:7
+msgid "User name"
+msgstr "Корисничко име"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:8
+msgid "If supplied, your password will be requested when calendar is first accessed"
+msgstr "Ако је достављена, ваша лозинка ће бити затражена приликом првог приступања календару"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:9
+msgid "optional"
+msgstr "изборно"
+
+#: ../src/rc/activator-google-authenticating-pane.ui.h:2
+msgid "_Try again"
+msgstr "_Покушај опет"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:1
+msgid "My calendars"
+msgstr "Моји календари"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:4
+msgid "Other available calendars"
+msgstr "Остали доступни календари"
+
+#: ../src/rc/activator-google-login-pane.ui.h:2
+msgid "_Login"
+msgstr "_Пријави ме"
+
+#: ../src/rc/activator-google-login-pane.ui.h:3
+msgid "Google _account name"
+msgstr "Назив Гугловог _налога"
+
+#: ../src/rc/activator-google-login-pane.ui.h:4
+msgid "Google _password"
+msgstr "Гуглова _лозинка"
+
+#: ../src/rc/activator-instance-list.ui.h:2
+msgid "_Add"
+msgstr "_Додај"
+
+#: ../src/rc/app-menu.interface.h:1
+msgid "_Calendars"
+msgstr "_Календари"
+
+#: ../src/rc/app-menu.interface.h:2
+msgid "_Help"
+msgstr "По_моћ"
+
+#: ../src/rc/app-menu.interface.h:3
+msgid "_About"
+msgstr "_О програму"
+
+#: ../src/rc/app-menu.interface.h:4
+msgid "_Quit"
+msgstr "_Изађи"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:1
+msgid "Add / remove guests"
+msgstr "Додај / уклони госте"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:3
+msgid "For example, alice@example.com"
+msgstr "На пример, pera@nekidomen.rs"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:4
+msgid "Email address (required if guests are invited)"
+msgstr "Е-адреса (обавезно уколико су гости позвани)"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:5
+msgid "For example, bob@example.com"
+msgstr "На пример, zika@nekidomen.rs"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:6
+msgid "Email address"
+msgstr "Е-адреса"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:7
+msgid "A_dd Guest"
+msgstr "_Додај госта"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:8
+msgid "_Remove Guest"
+msgstr "_Уклони госта"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:9 ../src/rc/event-editor-main-card.ui.h:10
+msgid "Guests"
+msgstr "Гости"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:11
+msgid "_Accept"
+msgstr "Прихв_ати"
+
+#. As in "From 9pm to 10pm"
+#: ../src/rc/event-editor-date-time-card.ui.h:2
+msgid "to"
+msgstr "до"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:3
+msgid "_All-day event"
+msgstr "_Целодневни догађај"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:5 ../src/rc/event-editor-recurring-card.ui.h:25
+msgid "_OK"
+msgstr "У _реду"
+
+#: ../src/rc/event-editor-date-time-widget.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/rc/event-editor-main-card.ui.h:1
+msgid "Untitled event"
+msgstr "Неименовани догађај"
+
+#: ../src/rc/event-editor-main-card.ui.h:2
+msgid "Summary"
+msgstr "Сажетак"
+
+#: ../src/rc/event-editor-main-card.ui.h:3
+msgid "Time"
+msgstr "Време"
+
+#: ../src/rc/event-editor-main-card.ui.h:4
+msgid "Set the start and end time"
+msgstr "Подесите време почетка и краја"
+
+#: ../src/rc/event-editor-main-card.ui.h:5
+msgid "Recurrence"
+msgstr "Понављање"
+
+#: ../src/rc/event-editor-main-card.ui.h:6
+msgid "Add or remove recurrences of the event"
+msgstr "Додајте или уклоните понављање догађаја"
+
+#: ../src/rc/event-editor-main-card.ui.h:7 ../src/rc/host-quick-create-event.ui.h:4 ../src/rc/host-show-event.ui.h:4
+msgid "Calendar"
+msgstr "Календар"
+
+#: ../src/rc/event-editor-main-card.ui.h:8
+msgid "_Description"
+msgstr "_Опис"
+
+#: ../src/rc/event-editor-main-card.ui.h:9
+msgid "_Location"
+msgstr "_Место"
+
+#: ../src/rc/event-editor-main-card.ui.h:11
+msgid "Add and remove invited guests"
+msgstr "Прихвати и уклањај позване госте"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:1
+msgid "_Repeating event"
+msgstr "_Понављајући догађај"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:2
+msgid "Re_peats"
+msgstr "По_нављај"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:3
+msgid "_Every"
+msgstr "_Сваког/е"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:4
+msgid "En_ds"
+msgstr "_Заврши"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:5
+msgid "_Starts"
+msgstr "_Почни"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:6
+msgid "_On days"
+msgstr "Да_нима"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:7
+msgid "Daily"
+msgstr "дневно"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:8
+msgid "Weekly"
+msgstr "недељно"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:9
+msgid "Day of the week"
+msgstr "дана у недељи"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:10
+msgid "Day of the month"
+msgstr "дана у месецу"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:11
+msgid "Yearly"
+msgstr "годишње"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:12
+msgid "_Sun"
+msgstr "_Нед"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:13
+msgid "_Mon"
+msgstr "П_он"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:14
+msgid "_Tues"
+msgstr "У_то"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:15
+msgid "_Wed"
+msgstr "С_ре"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:16
+msgid "T_hu"
+msgstr "_Чет"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:17
+msgid "_Fri"
+msgstr "П_ет"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:18
+msgid "S_at"
+msgstr "С_уб"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:19
+msgid "_Never"
+msgstr "Н_икада"
+
+#. As in, an event "ends on" a date
+#: ../src/rc/event-editor-recurring-card.ui.h:21
+msgid "_On"
+msgstr "Укључен_о"
+
+#. As in, "After n events"
+#: ../src/rc/event-editor-recurring-card.ui.h:23
+msgid "Aft_er"
+msgstr "Посл_е"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:26
+msgid ""
+"WARNING: California cannot edit this event's recurring criteria.\n"
+"• Press Cancel to keep the current criteria.\n"
+"• Press OK to overwrite the existing criteria with your changes."
+msgstr ""
+"УПОЗОРЕЊЕ: Калифорнија не може да уреди мерило понављања овог догађаја.\n"
+"• Притисните „Откажи“ да задржите тренутно мерило.\n"
+"• Притисните „У реду“ да препишете постојеће мерило вашим изменама."
+
+#: ../src/rc/host-import-calendar.ui.h:2
+msgid "_Import"
+msgstr "_Увези"
+
+#: ../src/rc/host-main-window-title.ui.h:1
+msgid "Previous (Alt+Left)"
+msgstr "Претходно (Алт+Лево)"
+
+#: ../src/rc/host-main-window-title.ui.h:2
+msgid "Next (Alt+Right)"
+msgstr "Следеће (Алт+Десно)"
+
+#: ../src/rc/host-quick-create-event.ui.h:1
+msgid "_Quick Add Event"
+msgstr "_Брзо додај догађај"
+
+#: ../src/rc/host-quick-create-event.ui.h:2 ../src/rc/host-show-event.ui.h:1
+msgid "When"
+msgstr "Када"
+
+#: ../src/rc/host-quick-create-event.ui.h:3
+msgid "What"
+msgstr "Шта"
+
+#: ../src/rc/host-quick-create-event.ui.h:5
+msgid "Quick Add help"
+msgstr "Помоћ око брзог додавања"
+
+#: ../src/rc/host-quick-create-event.ui.h:6
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../src/rc/host-quick-create-event.ui.h:7
+msgid "Edit event details"
+msgstr "Уредите појединости догађаја"
+
+#: ../src/rc/host-quick-create-event.ui.h:8
+msgid "Create event"
+msgstr "Направите догађај"
+
+#: ../src/rc/host-show-event.ui.h:2
+msgid "Where"
+msgstr "Где"
+
+#: ../src/rc/host-show-event.ui.h:3
+msgid "Organizers"
+msgstr "Организатори"
+
+#: ../src/rc/host-show-event.ui.h:5
+msgctxt "Attendees of an event (who are not organizing it)"
+msgid "Guests"
+msgstr "Гости"
+
+#: ../src/rc/manager-calendar-list.ui.h:1
+msgid "_Close"
+msgstr "_Затвори"
+
+#: ../src/rc/manager-calendar-list.ui.h:2
+msgid "Add calendar"
+msgstr "Додај календар"
+
+#: ../src/rc/manager-calendar-list.ui.h:3
+msgid "Rename calendar"
+msgstr "Преименуј календар"
+
+#: ../src/rc/manager-calendar-list.ui.h:4
+msgid "Remove calendar"
+msgstr "Уклони календар"
+
+#: ../src/rc/manager-calendar-list-item.ui.h:2
+msgid "Calendar visibility"
+msgstr "Видљивост календара"
+
+#: ../src/rc/manager-remove-calendar.ui.h:2
+msgid "_Remove"
+msgstr "_Уклони"
+
+#: ../src/rc/manager-remove-calendar.ui.h:3
+msgid "Are you sure you want to remove this calendar?"
+msgstr "Да ли сигурно желите да уклоните овај календар?"
+
+#: ../src/rc/view-agenda-event-row.ui.h:1
+msgid "Event has guests"
+msgstr "Догађај има госте"
+
+#: ../src/rc/view-agenda-event-row.ui.h:2
+msgid "Event is recurring"
+msgstr "Догађај се понавља"
+
+#. As in, "Load more events"
+#: ../src/rc/view-agenda-load-more-row.ui.h:2
+msgid "Load _More"
+msgstr "У_читај више"
+
+#: ../src/rc/window-menu.interface.h:1
+msgid "Zoom _In"
+msgstr "У_већај"
+
+#: ../src/rc/window-menu.interface.h:2
+msgid "Zoom _Out"
+msgstr "У_мањи"
+
+#: ../src/rc/window-menu.interface.h:3
+msgid "_Normal Size"
+msgstr "_Обична величина"
+
+#~ msgid "Desktop Calendar"
+#~ msgstr "Календар радне површи"
+
+#~ msgid "_Update"
+#~ msgstr "_Освежи"
+
+#~ msgid "From"
+#~ msgstr "Од"
+
+#~ msgid "_Name:"
+#~ msgstr "_Назив:"

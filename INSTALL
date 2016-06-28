@@ -1,0 +1,39 @@
+
+    Building & Installing California
+    --------------------------------
+
+  * Building
+
+    To build California, run the following commands:
+
+        $ ./configure
+        $ make
+
+    By default, California will install under /usr/local.  The configure script
+    can customize the prefix directory.  Run ./configure --help for
+    instructions and other installation options.
+
+
+  * Running
+
+    If you wish to try California before installing it, you may execute it directly
+    from its build directory:
+
+        $ src/california
+
+    Note that certain desktop integration (such as being listed in an
+    application menu) requires full installation.
+
+
+  * Installing
+
+    After California has built, run the following command to install it:
+
+        $ sudo make install
+
+    To uninstall, run:
+
+        $ sudo make uninstall
+
+
+    Copyright 2014-2015 Yorba Foundation

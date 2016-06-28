@@ -1,0 +1,1721 @@
+# Hungarian translation for california.
+# Copyright (C) 2014. Free Software Foundation, Inc.
+# This file is distributed under the same license as the california package.
+#
+# Attila Hammer <hammera at pickup dot hu>, 2014.
+# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: california master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=california&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-02-06 20:51+0000\n"
+"PO-Revision-Date: 2015-02-15 14:42+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../data/california.appdata.xml.in.h:1
+msgid "GNOME 3 calendar"
+msgstr "GNOME 3 naptár"
+
+#: ../data/california.appdata.xml.in.h:2
+msgid ""
+"California is a new calendar application for GNOME 3 designed to let you "
+"work with your calendars quickly and easily. It provides month and week "
+"views of your schedule and easy ways to add and update events, including a "
+"Quick Add feature which allows you to type the event details and have them "
+"added to your calendar without filling out a form."
+msgstr ""
+"A California a GNOME 3 új naptáralkalmazása, amelyet úgy terveztek, hogy "
+"könnyen és gyorsan dolgozhasson a naptáraival. Az időbeosztás havi és heti "
+"nézeteit, továbbá az események hozzáadásának és frissítésének egyszerű "
+"módját biztosítja, beleértve egy gyors hozzáadás funkciót, amely lehetővé "
+"teszi az esemény részleteinek begépelésével való hozzáadást a naptárhoz egy "
+"űrlap kitöltése nélkül."
+
+#: ../data/california.appdata.xml.in.h:3
+msgid ""
+"California is currently in beta development and has a limited but growing "
+"set of features:"
+msgstr ""
+"A California jelenleg béta fejlesztési állapotban van, és korlátozott, de "
+"növekvő számú szolgáltatással rendelkezik:"
+
+#: ../data/california.appdata.xml.in.h:4
+msgid "Modern, clean interface"
+msgstr "Modern, letisztult felület"
+
+#: ../data/california.appdata.xml.in.h:5
+msgid "Month and week view of your schedule"
+msgstr "Az időbeosztás havi és heti nézete"
+
+#: ../data/california.appdata.xml.in.h:6
+msgid "Quick setup (if any is required at all)"
+msgstr "Gyors beállítás (ha egyáltalán szükséges)"
+
+#: ../data/california.appdata.xml.in.h:7
+msgid "Integrates with Evolution Data Server"
+msgstr "Integráció az Evolution adatkiszolgálóval"
+
+#: ../data/california.appdata.xml.in.h:8
+msgid "Quickly add events with a natural-language parser"
+msgstr "Események gyors hozzáadása egy természetes nyelvi feldolgozóval"
+
+#: ../data/california.appdata.xml.in.h:9
+msgid "Works with Google, WebCal, and CalDAV servers"
+msgstr "Google, WebCal és CalDAV kiszolgálókkal való működés"
+
+#: ../data/california.desktop.in.in.h:1
+#: ../src/application/california-application.vala:19
+msgid "California"
+msgstr "California"
+
+#: ../data/california.desktop.in.in.h:2
+#: ../src/application/california-application.vala:20
+msgid "GNOME 3 Calendar"
+msgstr "GNOME 3 naptár"
+
+#: ../data/california.desktop.in.in.h:3
+msgid "Event;Events;Schedule;"
+msgstr "Esemény;Események;Ütemezés;"
+
+#: ../src/activator/activator.vala:36
+msgid "Web calendar (.ics or webcal:)"
+msgstr "Webes naptár (.ics vagy webcal:)"
+
+#: ../src/activator/activator.vala:37
+msgid "Google Calendar"
+msgstr "Google naptár"
+
+#: ../src/activator/activator.vala:38
+msgid "CalDAV"
+msgstr "CalDAV"
+
+#: ../src/activator/generic/generic-subscribe.vala:100
+#, c-format
+msgid "Unable to subscribe to calendar at %s: %s"
+msgstr "Nem sikerült feliratkozni a naptárra itt: %s: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:89
+#: ../src/rc/activator-google-authenticating-pane.ui.h:3
+msgid "Authenticating…"
+msgstr "Hitelesítés…"
+
+#: ../src/activator/google/google-authenticating-pane.vala:97
+msgid "Unable to authenticate with Google Calendar service"
+msgstr "Nem sikerült hitelesíteni a Google naptár szolgáltatással"
+
+#: ../src/activator/google/google-authenticating-pane.vala:105
+msgid "Unable to authenticate: Incorrect account name or password"
+msgstr "Nem sikerült hitelesíteni: hibás fióknév vagy jelszó"
+
+#: ../src/activator/google/google-authenticating-pane.vala:107
+#, c-format
+msgid "Unable to authenticate: %s"
+msgstr "Nem sikerült hitelesíteni: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:125
+#, c-format
+msgid "Unable to retrieve calendar list: %s"
+msgstr "Nem sikerült lekérni a naptárlistát: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:131
+msgid "Authenticated"
+msgstr "Hitelesítve"
+
+#. "None" as in "no people"
+#: ../src/activator/google/google-calendar-list-pane.vala:65
+#: ../src/event-editor/event-editor-main-card.vala:201
+msgid "None"
+msgstr "Nincs"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:158
+#, c-format
+msgid "Bad Google URI \"%s\""
+msgstr "Rossz Google URI: „%s”"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:166
+#: ../src/activator/google/google-calendar-list-pane.vala:188
+#, c-format
+msgid "Unable to subscribe to %s: %s"
+msgstr "Nem sikerült feliratkozni erre: %s: %s"
+
+#: ../src/application/california-application.vala:21
+#| msgid "Copyright 2014 Yorba Foundation"
+msgid "Copyright 2014-2015 Yorba Foundation"
+msgstr "Copyright 2014-2015 Yorba Foundation"
+
+#: ../src/application/california-application.vala:23
+msgid "Visit California's home page"
+msgstr "A California honlapjának megtekintése"
+
+#: ../src/application/california-application.vala:187
+#, c-format
+msgid "Unable to open California: %s"
+msgstr "Nem sikerült a California megnyitása: %s"
+
+#: ../src/application/california-application.vala:324
+#, c-format
+msgid "About %s"
+msgstr "%s névjegye"
+
+#. Translators: add your name and email address to receive credit in the About dialog
+#. For example: Yamada Taro <yamada.taro@example.com>
+#: ../src/application/california-application.vala:330
+msgid "translator-credits"
+msgstr "Úr Balázs <urbalazs at gmail dot com>"
+
+#: ../src/application/california-commandline.vala:9
+msgid "[.ics FILE...]"
+msgstr "[.ics FÁJL…]"
+
+#: ../src/application/california-commandline.vala:15
+msgid "Display program version"
+msgstr "A program verziójának megjelenítése"
+
+#: ../src/application/california-commandline.vala:32
+msgid "To log debug to standard out:"
+msgstr "A hibakeresés naplózása a szabványos kimenetre:"
+
+#: ../src/application/california-commandline.vala:33
+msgid "$ G_MESSAGES_DEBUG=all california"
+msgstr "$ G_MESSAGES_DEBUG=all california"
+
+#: ../src/application/california-commandline.vala:34
+msgid "Please report problems and requests to:"
+msgstr "Kérjük a problémákat és a kéréseket ide küldje:"
+
+#: ../src/application/california-commandline.vala:40
+#, c-format
+msgid "Unknown options: %s\n"
+msgstr "Ismeretlen kapcsolók: %s\n"
+
+#. Prints a span of dates, i.e. "Monday, January 3 to Thursday, January 6"
+#. A span of time, i.e. "3:30pm to 4:30pm"
+#. date formatting: "<Start Date> to <End Date>"
+#: ../src/calendar/calendar-date-span.vala:95
+#: ../src/calendar/calendar-exact-time-span.vala:184
+#: ../src/view/week/week-controller.vala:192
+#, c-format
+msgid "%s to %s"
+msgstr "%s – %s"
+
+#: ../src/calendar/calendar-date.vala:384
+msgid "Today"
+msgstr "Ma"
+
+#. See get_day_of_week_of_month().
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "last Monday"
+msgstr "múlt hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "first Monday"
+msgstr "első hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "second Monday"
+msgstr "második hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "third Monday"
+msgstr "harmadik hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fourth Monday"
+msgstr "negyedik hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fifth Monday"
+msgstr "ötödik hétfő"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "last Tuesday"
+msgstr "múlt kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "first Tuesday"
+msgstr "első kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "second Tuesday"
+msgstr "második kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "third Tuesday"
+msgstr "harmadik kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fourth Tuesday"
+msgstr "negyedik kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fifth Tuesday"
+msgstr "ötödik kedd"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "last Wednesday"
+msgstr "múlt szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "first Wednesday"
+msgstr "első szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "second Wednesday"
+msgstr "második szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "third Wednesday"
+msgstr "harmadik szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fourth Wednesday"
+msgstr "negyedik szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fifth Wednesday"
+msgstr "ötödik szerda"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "last Thursday"
+msgstr "múlt csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "first Thursday"
+msgstr "első csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "second Thursday"
+msgstr "második csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "third Thursday"
+msgstr "harmadik csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fourth Thursday"
+msgstr "negyedik csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fifth Thursday"
+msgstr "ötödik csütörtök"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "last Friday"
+msgstr "múlt péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "first Friday"
+msgstr "első péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "second Friday"
+msgstr "második péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "third Friday"
+msgstr "harmadik péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fourth Friday"
+msgstr "negyedik péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fifth Friday"
+msgstr "ötödik péntek"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "last Saturday"
+msgstr "múlt szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "first Saturday"
+msgstr "első szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "second Saturday"
+msgstr "második szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "third Saturday"
+msgstr "harmadik szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fourth Saturday"
+msgstr "negyedik szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fifth Saturday"
+msgstr "ötödik szombat"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "last Sunday"
+msgstr "múlt vasárnap"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "first Sunday"
+msgstr "első vasárnap"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "second Sunday"
+msgstr "második vasárnap"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "third Sunday"
+msgstr "harmadik vasárnap"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fourth Sunday"
+msgstr "negyedik vasárnap"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fifth Sunday"
+msgstr "ötödik vasárnap"
+
+#. A span of time followed by the timezone, i.e. "3:30pm to 4:30pm EST"
+#: ../src/calendar/calendar-exact-time-span.vala:187
+#, c-format
+msgid "%s to %s %s"
+msgstr "%s - %s %s"
+
+#. A span of time with each timezone's indicated, i.e.
+#. "12:30AM EDT to 2:30PM EST"
+#: ../src/calendar/calendar-exact-time-span.vala:192
+#, c-format
+msgid "%s %s to %s %s"
+msgstr "%s %s - %s %s"
+
+#. Single-day timed event, print "<full date>, <full start time> to <full end time>",
+#. including year if not current year
+#. Date and time, i.e. "September 13, 4:30pm"
+#: ../src/calendar/calendar-exact-time-span.vala:200
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm
+#. 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:209
+#, c-format
+msgid ""
+"%s, %s\n"
+"%s, %s"
+msgstr ""
+"%s, %s\n"
+"%s, %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year,
+#. *and* including timezone
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm PST
+#. 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:221
+#, c-format
+msgid ""
+"%s, %s %s\n"
+"%s, %s %s"
+msgstr ""
+"%s, %s %s\n"
+"%s, %s %s"
+
+#. Prints full time and date strings on a single line with timezone, i.e.:
+#. 12 January 2012, 3:30pm PST to 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:233
+#, c-format
+msgid "%s, %s %s to %s, %s %s"
+msgstr "%s, %s %s - %s, %s %s"
+
+#. Prints full time and date strings on a single line, i.e.:
+#. 12 January 2012, 3:30pm to 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:244
+#, c-format
+msgid "%s, %s to %s, %s"
+msgstr "%s, %s - %s, %s"
+
+#. The month and year according to locale preferences, i.e. "March 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:114
+#, no-c-format
+msgid "%B %Y"
+msgstr "%Y. %B"
+
+#. The abbreviated month and year according to locale preferences, i.e. "Mar 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:119
+#, no-c-format
+msgid "%b %Y"
+msgstr "%Y. %b."
+
+#. A "pretty" date according to locale preferences, i.e. "Monday, March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:124
+#, no-c-format
+msgid "%A, %B %e, %Y"
+msgstr "%Y. %B %e., %A"
+
+#. A "pretty" date with no year according to locale preferences, i.e. "Monday, March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:129
+#, no-c-format
+msgid "%A, %B %e"
+msgstr "%B %e., %A"
+
+#. A "pretty" date abbreviated according to locale preferences, i.e. "Mon, Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:134
+#, no-c-format
+msgid "%a, %b %e, %Y"
+msgstr "%Y. %b. %e., %a."
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e.
+#. "Mon, Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:140
+#, no-c-format
+msgid "%a, %b %e"
+msgstr "%b. %e., %a."
+
+#. A "pretty" date with no day of week according to locale preferences, i.e. "March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:145
+#, no-c-format
+msgid "%B %e, %Y"
+msgstr "%Y. %B %e."
+
+#. A "pretty" date abbreviated with no day of week according to locale preferences,
+#. i.e. "Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:151
+#, no-c-format
+msgid "%b %e, %Y"
+msgstr "%Y. %b. %e."
+
+#. A "pretty" date with no day of week or year according to locale preferences, i.e. "March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:156
+#, no-c-format
+msgid "%B %e"
+msgstr "%B %e."
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:162
+#, no-c-format
+msgid "%b %e"
+msgstr "%b. %e."
+
+#. A "pretty" date compacted according to locale preferences, i.e. "Mon 3/10/2014"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:168
+#, no-c-format
+msgid "%a %x"
+msgstr "%a, %x"
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e. "Mon 3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:174
+#, no-c-format
+msgid "%a %m/%d"
+msgstr "%a, %m-%d"
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:181
+#, no-c-format
+msgid "%m/%d"
+msgstr "%m-%d"
+
+#. Ante meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:186
+msgid "am"
+msgstr "de"
+
+#. Brief ante meridiem, i.e. "am" -> "a"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:191
+msgid "a"
+msgstr "e"
+
+#. Post meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:196
+msgid "pm"
+msgstr "du"
+
+#. Brief post meridiem, i.e. "pm" -> "p"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:201
+msgid "p"
+msgstr "u"
+
+#. The 12-hour time with minute and meridiem ("am" or "pm"), i.e. "5:06pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:206
+#, c-format
+msgid "%d:%02d%s"
+msgstr "%d.%02d%s"
+
+#. The 12-hour time with minute, seconds, and meridiem ("am" or "pm"), i.e. "5:06:31pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:211
+#, c-format
+msgid "%d:%02d:%02d%s"
+msgstr "%d.%02d.%02d%s"
+
+#. The 24-hour time with minutes, i.e. "17:06"
+#: ../src/calendar/calendar.vala:214
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d.%02d"
+
+#. The 24-hour time with minutes and seconds, i.e. "17:06:31"
+#: ../src/calendar/calendar.vala:217
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d.%02d.%02d"
+
+#. Used by quick-add to indicate the user wants to create an event at midnight.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:227
+msgid "midnight"
+msgstr "éjfél"
+
+#. Used by quick-add to indicate the user wants to create an event at noon.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:231
+msgid "noon"
+msgstr "dél"
+
+#. Used by quick-add to indicate the user wants to create an event for today.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:72
+msgid "today"
+msgstr "ma"
+
+#. Used by quick-add to indicate the user wants to create an event for tomorrow.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:76
+msgid "tomorrow"
+msgstr "holnap"
+
+#. Used by quick-add to indicate the user wants to create an event for yesterday.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:80
+msgid "yesterday"
+msgstr "tegnap"
+
+#. Used by quick-add to indicate the user wants to create a daily recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:84
+msgid "daily"
+msgstr "naponta"
+
+#. Used by quick-add to indicate the user wants to create a weekly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:88
+msgid "weekly"
+msgstr "hetente"
+
+#. Used by quick-add to indicate the user wants to create a yearly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:92
+msgid "yearly"
+msgstr "évente"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekday
+#. (in most Western countries, this means Monday through Friday, i.e. the work week)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:99
+msgid "weekday;weekdays;"
+msgstr "hétköznap;hétköznapok;"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekend
+#. (in most Western countries, this means Saturday and Sunday, i.e. non-work days)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:106
+msgid "weekend;weekends;"
+msgstr "hétvége;hétvégék;"
+
+#. Used by quick-add to convert a user's years unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:111
+msgid "year;years;yr;yrs;"
+msgstr "év;évek;"
+
+#. Used by quick-add to convert a user's month unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:116
+msgid "month;months;mo;mos;"
+msgstr "hónap;hónapok;hó;"
+
+#. Used by quick-add to convert a user's week unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:121
+msgid "week;weeks;wk;weeks;"
+msgstr "hét;hetek;"
+
+#. Used by quick-add to convert a user's day unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:126
+msgid "day;days;"
+msgstr "nap;napok;"
+
+#. Used by quick-add to convert a user's hours unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:131
+msgid "hour;hours;hr;hrs"
+msgstr "óra;órák;ó;"
+
+#. Used by quick-add to convert a user's minute unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:136
+msgid "minute;minutes;min;mins"
+msgstr "perc;percek;p;"
+
+#. Used by quick-add to determine if the word is a COMMON preposition (indicating linkage or a
+#. connection).  Each word must be separate by semi-colons.
+#. These words should not be duplicated in another other preposition list.
+#. This list can be empty but that will limit the parser or cause unexpected results.
+#. Examples: "wednesday and thursday", "monday or friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:144
+msgid "and;or;"
+msgstr "és;vagy;"
+
+#. Used by quick-add to determine if the word is a TIME preposition (indicating a
+#. specific time of day, not a duration).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "at 9am", "from 10pm to 11:30pm", "on monday", "until June 3rd", "this Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:153
+msgid "at;from;to;on;until;this;"
+msgstr "kor;tól;ig;ez;"
+
+#. Used by quick-add to determine if the word is a DURATION preposition (indicating a
+#. a duration of time, not a specific time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "for 3 hours", "for 90 minutes"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:162
+msgid "for;"
+msgstr "ra;re;"
+
+#. Used by quick-add to determine if the word is a DELAY preposition (indicating a specific
+#. time from the current moment).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "in 3 hours" (meaning 3 hours from now)
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:171
+msgid "in;"
+msgstr "ban;ben;ba;be;"
+
+#. Used by quick-add to determine if the word is a RECURRING preposition (indicating a
+#. regular occurrance in time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in the location
+#. prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "every 3 days", "every Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:180
+msgid "every;"
+msgstr "minden;mind;"
+
+#. Used by quick-add to determine if the word is a LOCATION preposition (indicating a
+#. specific place).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in
+#. the time prepositions list (elsewhere).  The list can be empty, but that will limit the
+#. parser.
+#. Example: "at supermarket", "at Eiffel Tower"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:189
+msgid "at;"
+msgstr "on;en;ön;nál;nél;ban;ben;ba;be;"
+
+#. Used by quick-add to strip date numbers of common ordinal suffices.  Each word must be
+#. separated by semi-colons.
+#. The list can be empty, but that will limit the parser if your language supports ordinal
+#. suffixes.
+#. Example: "1st", "2nd", "3rd", "4th"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:197
+msgid "st;nd;rd;th"
+msgstr "dik;"
+
+#: ../src/component/component-recurrence-rule.vala:599
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d nap"
+msgstr[1] "%d nap"
+
+#: ../src/component/component-recurrence-rule.vala:602
+#, c-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d hét"
+msgstr[1] "%d hét"
+
+#: ../src/component/component-recurrence-rule.vala:613
+#, c-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d hónap"
+msgstr[1] "%d hónap"
+
+#: ../src/component/component-recurrence-rule.vala:621
+#, c-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d év"
+msgstr[1] "%d év"
+
+#. As in, "Repeats every day, 2 times"
+#: ../src/component/component-recurrence-rule.vala:636
+#, c-format
+msgid "Repeats every %s, %s"
+msgstr "Ismétlődik minden %s, %s"
+
+#: ../src/component/component-recurrence-rule.vala:637
+#: ../src/component/component-recurrence-rule.vala:720
+#: ../src/component/component-recurrence-rule.vala:765
+#: ../src/component/component-recurrence-rule.vala:805
+#: ../src/component/component-recurrence-rule.vala:842
+#, c-format
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] "%d alkalommal"
+msgstr[1] "%d alkalommal"
+
+#. As in, "Repeats every week until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:643
+#, c-format
+msgid "Repeats every %s until %s"
+msgstr "Ismétlődik minden %s, egészen %s"
+
+#. As in, "Repeats every month until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:650
+#, c-format
+msgid "Repeats every %s until %s, %s"
+msgstr "Ismétlődik minden %s, egészen %s, %s"
+
+#. As in, "Repeats every day"
+#: ../src/component/component-recurrence-rule.vala:657
+#, c-format
+msgid "Repeats every %s"
+msgstr "Ismétlődik minden %s"
+
+#. look for expressible patterns
+#: ../src/component/component-recurrence-rule.vala:679
+msgid "every day"
+msgstr "minden nap"
+
+#: ../src/component/component-recurrence-rule.vala:684
+msgid "the weekend"
+msgstr "a hétvégén"
+
+#: ../src/component/component-recurrence-rule.vala:689
+msgid "weekdays"
+msgstr "hétköznaponként"
+
+#. Separator between days of the week, i.e. "Monday, Tuesday, Wednesday"
+#: ../src/component/component-recurrence-rule.vala:697
+msgid ", "
+msgstr ", "
+
+#. As in, "Repeats every week on Monday, Tuesday, 3 times"
+#. As in, "Repeats every month on day 4, 3 times"
+#. As in, "Repeats every year on 3 March 2014, 2 times"
+#: ../src/component/component-recurrence-rule.vala:719
+#: ../src/component/component-recurrence-rule.vala:804
+#: ../src/component/component-recurrence-rule.vala:841
+#, c-format
+msgid "Repeats every %s on %s, %s"
+msgstr "Ismétlődik minden %s ekkor: %s, %s"
+
+#. As in, "Repeats every week on Thursday until Sept. 2, 2014"
+#. As in, "Repeats every month on day 21 until Sept. 2, 2014"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:726
+#: ../src/component/component-recurrence-rule.vala:811
+#: ../src/component/component-recurrence-rule.vala:848
+#, c-format
+msgid "Repeats every %s on %s until %s"
+msgstr "Ismétlődik minden %s ekkor: %s, eddig: %s"
+
+#. As in, "Repeats every week on Friday, Saturday until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every month on day 20 until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:733
+#: ../src/component/component-recurrence-rule.vala:818
+#: ../src/component/component-recurrence-rule.vala:855
+#, c-format
+msgid "Repeats every %s on %s until %s, %s"
+msgstr "Ismétlődik minden %s ekkor: %s, eddig: %s, %s"
+
+#. As in, "Repeats every week on Monday, Wednesday, Friday"
+#. As in, "Repeats every month on day 5"
+#. As in, "Repeats every year on 3 March 2014"
+#: ../src/component/component-recurrence-rule.vala:740
+#: ../src/component/component-recurrence-rule.vala:825
+#: ../src/component/component-recurrence-rule.vala:862
+#, c-format
+msgid "Repeats every %s on %s"
+msgstr "Ismétlődik minden %s ekkor: %s"
+
+#. As in, "Repeats every month on the first Tuesday, 3 times"
+#: ../src/component/component-recurrence-rule.vala:764
+#, c-format
+msgid "Repeats every %s on the %s, %s"
+msgstr "Ismétlődik minden %s ekkor: %s, %s"
+
+#. As in, "Repeats every month on the second Monday until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:771
+#, c-format
+msgid "Repeats every %s on the %s until %s"
+msgstr "Ismétlődik minden %s ekkor: %s, eddig: %s"
+
+#. As in, "Repeats every month on the last Friday until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:778
+#, c-format
+msgid "Repeats every %s on the %s until %s, %s"
+msgstr "Ismétlődik minden %s ekkor: %s, eddig: %s, %s"
+
+#. As in, "Repeats every month on the third Tuesday"
+#: ../src/component/component-recurrence-rule.vala:785
+#, c-format
+msgid "Repeats every %s on the %s"
+msgstr "Ismétlődik minden %s ekkor: %s"
+
+#. As in, "Repeats on day 4 of the month"
+#: ../src/component/component-recurrence-rule.vala:800
+#, c-format
+msgid "day %d"
+msgstr "nap %d"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Send invite"
+msgstr "Meghívás küldése"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Don't send invite"
+msgstr "Ne küldjön meghívást"
+
+#: ../src/event-editor/event-editor-main-card.vala:74
+#: ../src/event-editor/event-editor-main-card.vala:77
+#: ../src/host/host-show-event.vala:92 ../src/host/host-show-event.vala:299
+#: ../src/rc/activator-generic-subscribe.ui.h:5
+#: ../src/rc/activator-google-authenticating-pane.ui.h:1
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:2
+#: ../src/rc/activator-google-login-pane.ui.h:1
+#: ../src/rc/activator-instance-list.ui.h:1
+#: ../src/rc/event-editor-attendees-card.ui.h:10
+#: ../src/rc/event-editor-date-time-card.ui.h:4
+#: ../src/rc/event-editor-recurring-card.ui.h:24
+#: ../src/rc/host-import-calendar.ui.h:1
+#: ../src/rc/manager-remove-calendar.ui.h:1
+msgid "_Cancel"
+msgstr "Mé_gse"
+
+#: ../src/event-editor/event-editor-main-card.vala:75
+msgid "Save A_ll Events"
+msgstr "Min_den esemény mentése"
+
+#: ../src/event-editor/event-editor-main-card.vala:76
+msgid "Save _This Event"
+msgstr "_Ezen esemény mentése"
+
+#: ../src/event-editor/event-editor-main-card.vala:212
+msgid "It's complicated…"
+msgstr "Ez bonyolult…"
+
+#: ../src/event-editor/event-editor-main-card.vala:215
+msgid "Never"
+msgstr "Soha"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "_Save"
+msgstr "_Mentés"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "C_reate"
+msgstr "_Létrehozás"
+
+#. Email address followed by common separator, i.e. "alice@example.com, bob@example.com"
+#. Email separator, i.e. "alice@example.com, bob@example.com"
+#: ../src/event-editor/event-editor-main-card.vala:250
+#: ../src/event-editor/event-editor-main-card.vala:605
+#, c-format
+msgid "%s, "
+msgstr "%s, "
+
+#: ../src/event-editor/event-editor-main-card.vala:370
+#: ../src/host/host-quick-create-event.vala:171
+msgid "Unable to create event: calendar must be specified"
+msgstr "Nem sikerült létrehozni az eseményt: meg kell adni egy naptárat"
+
+#: ../src/event-editor/event-editor-main-card.vala:391
+#: ../src/host/host-quick-create-event.vala:190
+#, c-format
+msgid "Unable to create event: %s"
+msgstr "Nem sikerült létrehozni az eseményt: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:396
+msgid "Unable to update event: calendar must be specified"
+msgstr "Nem sikerült frissíteni az eseményt: meg kell adni egy naptárat"
+
+#: ../src/event-editor/event-editor-main-card.vala:445
+#, c-format
+msgid "Unable to update event: %s"
+msgstr "Nem sikerült frissíteni az eseményt: %s"
+
+#. "invite.ics" is the name of the file for an event invite delivered via email ...
+#. please translate but keep the .ics extension, as that's common to most calendar
+#. applications
+#: ../src/event-editor/event-editor-main-card.vala:474
+msgid "invite.ics"
+msgstr "meghivas.ics"
+
+#: ../src/event-editor/event-editor-main-card.vala:481
+#, c-format
+msgid "Unable to export .ics to %s: %s"
+msgstr "Nem lehet exportálni az .ics fájlt ide: %s: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Event invitation"
+msgstr "Esemény meghívás"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Updated event invitation"
+msgstr "Frissített esemény meghívás"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Invitation: %s"
+msgstr "Meghívás: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Updated invitation: %s"
+msgstr "Frissített meghívás: %s"
+
+#. Invitation: <summary> at <location>
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Invitation: %s at %s"
+msgstr "Meghívás: %s, ide: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Updated invitation: %s at %s"
+msgstr "Frissített meghívás: %s, ide: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:522
+#, c-format
+msgid "Unable to launch mail client: %s"
+msgstr "Nem lehet elindítani a levelezőklienst: %s"
+
+#. Salutations for an email
+#: ../src/event-editor/event-editor-main-card.vala:530
+msgid "Hello,"
+msgstr "Szia!"
+
+#: ../src/event-editor/event-editor-main-card.vala:533
+msgid "Attached is an invitation to a new event:"
+msgstr "A melléklet egy új esemény meghívója:"
+
+#: ../src/event-editor/event-editor-main-card.vala:534
+msgid "Attached is an updated event invitation:"
+msgstr "A melléklet egy frissített esemény meghívója:"
+
+#. Date/time of an event
+#: ../src/event-editor/event-editor-main-card.vala:550
+#, c-format
+msgid "When: %s"
+msgstr "Mikor: %s"
+
+#. Location
+#. Location of an event
+#: ../src/event-editor/event-editor-main-card.vala:563
+#, c-format
+msgid "Where: %s"
+msgstr "Hol: %s"
+
+#. Who organized (scheduled or planned) the event
+#: ../src/event-editor/event-editor-main-card.vala:573
+#, c-format
+msgid "Organizer: %s"
+msgstr "Szervező: %s"
+
+#. People attending event
+#: ../src/event-editor/event-editor-main-card.vala:583
+#, c-format
+msgid "Guest: %s"
+msgid_plural "Guests: %s"
+msgstr[0] "Vendég: %s"
+msgstr[1] "Vendégek: %s"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:443
+msgid "month"
+msgid_plural "months"
+msgstr[0] "hónap"
+msgstr[1] "hónap"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:447
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "hét"
+msgstr[1] "hét"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:451
+msgid "year"
+msgid_plural "years"
+msgstr[0] "év"
+msgstr[1] "év"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:456
+msgid "day"
+msgid_plural "days"
+msgstr[0] "nap"
+msgstr[1] "nap"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:468
+msgid "event"
+msgid_plural "events"
+msgstr[0] "esemény"
+msgstr[1] "esemény"
+
+#: ../src/host/host-import-calendar.vala:33
+msgid "Select calendar to import event into:"
+msgid_plural "Select calendar to import events into:"
+msgstr[0] "Naptár kiválasztása az esemény importálásához:"
+msgstr[1] "Naptár kiválasztása az események importálásához:"
+
+#: ../src/host/host-main-window.vala:98
+msgid "_Today"
+msgstr "_Ma"
+
+#: ../src/host/host-main-window.vala:167
+msgid "Jump to today's date (Ctrl+T)"
+msgstr "Ugrás a mai dátumra (Ctrl+T)"
+
+#: ../src/host/host-main-window.vala:185
+msgid "Quick add event (Ctrl+N)"
+msgstr "Esemény gyors hozzáadása (Ctrl+N)"
+
+#: ../src/host/host-main-window.vala:191
+msgid "Calendars (Ctrl+L)"
+msgstr "Naptárak (Ctrl+L)"
+
+#: ../src/host/host-main-window.vala:506
+#, c-format
+msgid "Unable to edit event: %s"
+msgstr "Nem lehet szerkeszteni az eseményt: %s"
+
+#: ../src/host/host-quick-create-event.vala:79
+msgid "Example: Dinner at Tadich Grill 7:30pm"
+msgstr "Példa: Vacsora a Tadich Grillben, este 7.30-kor"
+
+#: ../src/host/host-quick-create-event.vala:81
+msgid "Example: Dinner at Tadich Grill"
+msgstr "Példa: Vacsora a Tadich Grillben"
+
+#: ../src/host/host-quick-create-event.vala:85
+msgid "Example: Dinner at Tadich Grill 7:30pm tomorrow"
+msgstr "Példa: Vacsora a Tadich Grillben, holnap este 7.30-kor"
+
+#: ../src/host/host-quick-create-event.vala:99
+#, c-format
+msgid "Error opening help: %s"
+msgstr "Hiba a súgó megnyitásakor: %s"
+
+#: ../src/host/host-show-event.vala:87
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../src/host/host-show-event.vala:88
+msgid "A_ll Events"
+msgstr "Min_den esemény"
+
+#: ../src/host/host-show-event.vala:89
+msgid "_This Event"
+msgstr "_Ezen esemény"
+
+#: ../src/host/host-show-event.vala:91
+msgid "This & _Future Events"
+msgstr "Ezen esemény és a _jövőbeli események"
+
+#: ../src/host/host-show-event.vala:98
+msgid "Edit event"
+msgstr "Esemény szerkesztése"
+
+#: ../src/host/host-show-event.vala:99 ../src/host/host-show-event.vala:297
+msgid "Export event as .ics"
+msgstr "Esemény exportálása .ics fájlként"
+
+#: ../src/host/host-show-event.vala:100
+msgid "Delete event"
+msgstr "Esemény törlése"
+
+#: ../src/host/host-show-event.vala:174
+#: ../src/rc/event-editor-attendees-card.ui.h:2
+#: ../src/rc/event-editor-main-card.ui.h:12
+msgid "Organizer"
+msgid_plural "Organizers"
+msgstr[0] "Szervező"
+msgstr[1] "Szervezők"
+
+#: ../src/host/host-show-event.vala:185
+msgid "Guest"
+msgid_plural "Guests"
+msgstr[0] "Vendég"
+msgstr[1] "Vendégek"
+
+#: ../src/host/host-show-event.vala:300
+msgid "E_xport"
+msgstr "E_xportálás"
+
+#. This is the suggested filename for saving (exporting) an event.  The .ics file extension
+#. should always be present no matter the translation, as many systems rely on it to detect
+#. the file type
+#: ../src/host/host-show-event.vala:304
+msgid "event.ics"
+msgstr "esemeny.ics"
+
+#: ../src/host/host-show-event.vala:311
+msgid "Export _master event"
+msgstr "_Mesteresemény exportálása"
+
+#: ../src/host/host-show-event.vala:333
+#, c-format
+msgid "Unable to export event as file: %s"
+msgstr "Nem lehet exportálni az eseményt fájlként: %s"
+
+#. No number is supplied because the number of events removed is indefinite in certain
+#. situations ... plural text should simply be for "more than one"
+#: ../src/host/host-show-event.vala:360
+#, c-format
+msgid "Unable to remove event: %s"
+msgid_plural "Unable to remove events: %s"
+msgstr[0] "Nem sikerült eltávolítani az eseményt: %s"
+msgstr[1] "Nem sikerült eltávolítani az eseményeket: %s"
+
+#: ../src/manager/manager-calendar-list-item.vala:92
+msgid "Calendar is read-only"
+msgstr "A naptár csak olvasható"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+msgid "Calendar is default"
+msgstr "A naptár alapértelmezett"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+msgid "Make this calendar default"
+msgstr "Legyen ez a naptár alapértelmezett"
+
+#: ../src/manager/manager-calendar-list-item.vala:117
+msgid "Server sends event invitations"
+msgstr "A kiszolgáló esemény meghívásokat küld"
+
+#: ../src/manager/manager-calendar-list-item.vala:118
+msgid "Server does not send event invitations"
+msgstr "A kiszolgáló nem küld esemény meghívásokat"
+
+#: ../src/manager/manager-remove-calendar.vala:39
+#, c-format
+msgid ""
+"This will remove the %s local calendar from your computer.  All associated "
+"information will be deleted permanently."
+msgstr ""
+"Ez el fogja távolítani a helyi %s naptárat a számítógépről. Minden "
+"hozzárendelt információ véglegesen törölve lesz."
+
+#: ../src/manager/manager-remove-calendar.vala:41
+#, c-format
+msgid ""
+"This will remove the %s network calendar from your computer.  This will not "
+"affect information stored on the server."
+msgstr ""
+"Ez el fogja távolítani a hálózati %s naptárat a számítógépről. Nem fogja "
+"érinteni a kiszolgálón tárolt információkat."
+
+#: ../src/manager/manager-remove-calendar.vala:74
+#, c-format
+msgid "Unable to remove calendar: %s"
+msgstr "Nem sikerült eltávolítani a naptárat: %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/agenda/agenda-controller.vala:33
+msgid "Agenda"
+msgstr "Napirend"
+
+#: ../src/view/agenda/agenda-event-row.vala:109
+msgid "All day"
+msgstr "Egész nap"
+
+#. %s is a date, i.e. "Showing events until December 5, 2014"
+#: ../src/view/agenda/agenda-load-more-row.vala:38
+#, c-format
+msgid "Showing events until %s"
+msgstr "Események megjelenítése eddig: %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/month/month-controller.vala:51
+msgid "Month"
+msgstr "Hónap"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/week/week-controller.vala:42
+msgid "Week"
+msgstr "Hét"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:1
+msgid "Calendar _name"
+msgstr "Naptár _neve"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:2
+msgid "_URL"
+msgstr "_URL"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:3
+#: ../src/rc/manager-calendar-list-item.ui.h:1
+msgid "Calendar color"
+msgstr "Naptár színe"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:4
+msgid "Select a color for the calendar"
+msgstr "Válasszon egy színt a naptárhoz"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:6
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:3
+msgid "_Subscribe"
+msgstr "_Feliratkozás"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:7
+msgid "User name"
+msgstr "Felhasználónév"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:8
+msgid ""
+"If supplied, your password will be requested when calendar is first accessed"
+msgstr ""
+"Ha meg van adva, akkor a jelszavát a naptár első elérésekor fogják kérni"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:9
+msgid "optional"
+msgstr "opcionális"
+
+#: ../src/rc/activator-google-authenticating-pane.ui.h:2
+msgid "_Try again"
+msgstr "P_róbálja újra"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:1
+msgid "My calendars"
+msgstr "Saját naptáraim"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:4
+msgid "Other available calendars"
+msgstr "Más elérhető naptárak"
+
+#: ../src/rc/activator-google-login-pane.ui.h:2
+msgid "_Login"
+msgstr "_Bejelentkezés"
+
+#: ../src/rc/activator-google-login-pane.ui.h:3
+msgid "Google _account name"
+msgstr "Google _fiók neve"
+
+#: ../src/rc/activator-google-login-pane.ui.h:4
+msgid "Google _password"
+msgstr "Google _jelszó"
+
+#: ../src/rc/activator-instance-list.ui.h:2
+msgid "_Add"
+msgstr "_Hozzáadás"
+
+#: ../src/rc/app-menu.interface.h:1
+msgid "_Calendars"
+msgstr "N_aptárak"
+
+#: ../src/rc/app-menu.interface.h:2
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/rc/app-menu.interface.h:3
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../src/rc/app-menu.interface.h:4
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:1
+msgid "Add / remove guests"
+msgstr "Vendégek hozzáadása vagy eltávolítása"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:3
+msgid "For example, alice@example.com"
+msgstr "Például: aladar@pelda.hu"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:4
+msgid "Email address (required if guests are invited)"
+msgstr "E-mail cím (szükséges, ha meg vannak hívva vendégek)"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:5
+msgid "For example, bob@example.com"
+msgstr "Például: bela@pelda.hu"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:6
+msgid "Email address"
+msgstr "E-mail cím"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:7
+msgid "A_dd Guest"
+msgstr "Vendég _hozzáadása"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:8
+msgid "_Remove Guest"
+msgstr "Vendég _eltávolítása"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:9
+#: ../src/rc/event-editor-main-card.ui.h:10
+msgid "Guests"
+msgstr "Vendégek"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:11
+msgid "_Accept"
+msgstr "_Elfogadás"
+
+#. As in "From 9pm to 10pm"
+#: ../src/rc/event-editor-date-time-card.ui.h:2
+msgid "to"
+msgstr "eddig:"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:3
+msgid "_All-day event"
+msgstr "_Egész napos esemény"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:5
+#: ../src/rc/event-editor-recurring-card.ui.h:25
+msgid "_OK"
+msgstr "_OK"
+
+#: ../src/rc/event-editor-date-time-widget.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/rc/event-editor-main-card.ui.h:1
+msgid "Untitled event"
+msgstr "Névtelen esemény"
+
+#: ../src/rc/event-editor-main-card.ui.h:2
+msgid "Summary"
+msgstr "Összegzés"
+
+#: ../src/rc/event-editor-main-card.ui.h:3
+msgid "Time"
+msgstr "Idő"
+
+#: ../src/rc/event-editor-main-card.ui.h:4
+msgid "Set the start and end time"
+msgstr "A kezdési és a befejezési idő beállítása"
+
+#: ../src/rc/event-editor-main-card.ui.h:5
+msgid "Recurrence"
+msgstr "Ismétlődés"
+
+#: ../src/rc/event-editor-main-card.ui.h:6
+msgid "Add or remove recurrences of the event"
+msgstr "Az esemény ismétlődéseinek hozzáadása vagy eltávolítása"
+
+#: ../src/rc/event-editor-main-card.ui.h:7
+#: ../src/rc/host-quick-create-event.ui.h:4 ../src/rc/host-show-event.ui.h:4
+msgid "Calendar"
+msgstr "Naptár"
+
+#: ../src/rc/event-editor-main-card.ui.h:8
+msgid "_Description"
+msgstr "_Leírás"
+
+#: ../src/rc/event-editor-main-card.ui.h:9
+msgid "_Location"
+msgstr "_Hely"
+
+#: ../src/rc/event-editor-main-card.ui.h:11
+msgid "Add and remove invited guests"
+msgstr "Meghívott vendégek hozzáadása vagy eltávolítása"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:1
+msgid "_Repeating event"
+msgstr "_Ismétlődő esemény"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:2
+msgid "Re_peats"
+msgstr "I_smétlődik"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:3
+msgid "_Every"
+msgstr "_Minden"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:4
+msgid "En_ds"
+msgstr "_Vége"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:5
+msgid "_Starts"
+msgstr "_Kezdete"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:6
+msgid "_On days"
+msgstr "Ezeken a _napokon"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:7
+msgid "Daily"
+msgstr "Naponta"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:8
+msgid "Weekly"
+msgstr "Hetente"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:9
+msgid "Day of the week"
+msgstr "A hét napján"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:10
+msgid "Day of the month"
+msgstr "A hónap napján"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:11
+msgid "Yearly"
+msgstr "Évente"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:12
+msgid "_Sun"
+msgstr "_Vas"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:13
+msgid "_Mon"
+msgstr "_Hét"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:14
+msgid "_Tues"
+msgstr "_Ked"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:15
+msgid "_Wed"
+msgstr "Sz_e"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:16
+msgid "T_hu"
+msgstr "_Csü"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:17
+msgid "_Fri"
+msgstr "_Pén"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:18
+msgid "S_at"
+msgstr "Sz_o"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:19
+msgid "_Never"
+msgstr "_Soha"
+
+#. As in, an event "ends on" a date
+#: ../src/rc/event-editor-recurring-card.ui.h:21
+msgid "_On"
+msgstr "Ekko_r"
+
+#. As in, "After n events"
+#: ../src/rc/event-editor-recurring-card.ui.h:23
+msgid "Aft_er"
+msgstr "Ez _után"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:26
+msgid ""
+"WARNING: California cannot edit this event's recurring criteria.\n"
+"• Press Cancel to keep the current criteria.\n"
+"• Press OK to overwrite the existing criteria with your changes."
+msgstr ""
+"FIGYELEM: A California nem tudja szerkeszteni ezen esemény ismétlődési "
+"feltételét.\n"
+"• Nyomja meg a Mégse gombot a jelenlegi feltétel megtartásához.\n"
+"• Nyomja meg az OK gombot a meglévő feltétel felülírásához a "
+"változtatásokkal."
+
+#: ../src/rc/host-import-calendar.ui.h:2
+msgid "_Import"
+msgstr "_Importálás"
+
+#: ../src/rc/host-main-window-title.ui.h:1
+msgid "Previous (Alt+Left)"
+msgstr "Előző (Alt+Balra)"
+
+#: ../src/rc/host-main-window-title.ui.h:2
+msgid "Next (Alt+Right)"
+msgstr "Következő (Alt+Jobbra)"
+
+#: ../src/rc/host-quick-create-event.ui.h:1
+msgid "_Quick Add Event"
+msgstr "Esemény gy_ors hozzáadása"
+
+#: ../src/rc/host-quick-create-event.ui.h:2 ../src/rc/host-show-event.ui.h:1
+msgid "When"
+msgstr "Mikor"
+
+#: ../src/rc/host-quick-create-event.ui.h:3
+msgid "What"
+msgstr "Mit"
+
+#: ../src/rc/host-quick-create-event.ui.h:5
+msgid "Quick Add help"
+msgstr "Gyors hozzáadás súgó"
+
+#: ../src/rc/host-quick-create-event.ui.h:6
+msgid "Cancel"
+msgstr "Mégse"
+
+#: ../src/rc/host-quick-create-event.ui.h:7
+msgid "Edit event details"
+msgstr "Eseményrészletek szerkesztése"
+
+#: ../src/rc/host-quick-create-event.ui.h:8
+msgid "Create event"
+msgstr "Esemény létrehozása"
+
+#: ../src/rc/host-show-event.ui.h:2
+msgid "Where"
+msgstr "Hol"
+
+#: ../src/rc/host-show-event.ui.h:3
+msgid "Organizers"
+msgstr "Szervezők"
+
+#: ../src/rc/host-show-event.ui.h:5
+msgctxt "Attendees of an event (who are not organizing it)"
+msgid "Guests"
+msgstr "Vendégek"
+
+#: ../src/rc/manager-calendar-list.ui.h:1
+msgid "_Close"
+msgstr "_Bezárás"
+
+#: ../src/rc/manager-calendar-list.ui.h:2
+msgid "Add calendar"
+msgstr "Naptár hozzáadása"
+
+#: ../src/rc/manager-calendar-list.ui.h:3
+msgid "Rename calendar"
+msgstr "Naptár átnevezése"
+
+#: ../src/rc/manager-calendar-list.ui.h:4
+msgid "Remove calendar"
+msgstr "Naptár eltávolítása"
+
+#: ../src/rc/manager-calendar-list-item.ui.h:2
+msgid "Calendar visibility"
+msgstr "Naptár láthatósága"
+
+#: ../src/rc/manager-remove-calendar.ui.h:2
+msgid "_Remove"
+msgstr "_Eltávolítás"
+
+#: ../src/rc/manager-remove-calendar.ui.h:3
+msgid "Are you sure you want to remove this calendar?"
+msgstr "Biztosan el akarja távolítani ezt a naptárat?"
+
+#: ../src/rc/view-agenda-event-row.ui.h:1
+msgid "Event has guests"
+msgstr "Az eseménynek vendégei vannak"
+
+#: ../src/rc/view-agenda-event-row.ui.h:2
+msgid "Event is recurring"
+msgstr "Az esemény ismétlődik"
+
+#. As in, "Load more events"
+#: ../src/rc/view-agenda-load-more-row.ui.h:2
+msgid "Load _More"
+msgstr "_Több betöltése"
+
+#: ../src/rc/window-menu.interface.h:1
+msgid "Zoom _In"
+msgstr "_Nagyítás"
+
+#: ../src/rc/window-menu.interface.h:2
+msgid "Zoom _Out"
+msgstr "_Kicsinyítés"
+
+#: ../src/rc/window-menu.interface.h:3
+msgid "_Normal Size"
+msgstr "N_ormál méret"
+
+#~ msgid "_Edit"
+#~ msgstr "S_zerkesztés"
+
+#~ msgid "Delete _This Event"
+#~ msgstr "_Ezen esemény törlése"
+
+#~ msgid "From"
+#~ msgstr "Ettől:"
+
+#~ msgid "Re_peats..."
+#~ msgstr "I_smétlődik…"
+
+#~ msgid "C_ancel"
+#~ msgstr "Mé_gse"
+
+#~ msgid "_Create"
+#~ msgstr "_Létrehozás"
+
+#~ msgid "_Name:"
+#~ msgstr "_Név:"
+
+#~ msgid "_Update"
+#~ msgstr "_Frissítés"
+
+#~ msgid "Desktop Calendar"
+#~ msgstr "Asztali naptár"

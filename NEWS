@@ -1,0 +1,88 @@
+California 0.4.0 - 23 March 2015
+--------------------------------
+
+  * Fix UI issue where date span of event could not be reduced (#744147)
+  * Add ftp, ftps support for WebCal
+  * Update translations
+
+
+California 0.3.1 - 3 February 2015
+----------------------------------
+
+  * Honor event's timezone when editing RRULEs (#741624)
+  * Prevent black background when using Unity (#742310)
+  * Assorted bug fixes
+  * Updated translations
+
+
+California 0.3.0 - 8 December 2014
+----------------------------------
+
+  * New Agenda view shows events as chronological list
+  * Set and honor default calendar
+  * Export event as .ics file
+  * Fix moving events between calendars
+  * Show and edit event attendees and organizer
+  * Send invites to attendees when editing event
+  * Fix nasty "Invalid DTSTAMP" problem: Bug #733319
+  * Various bug fixes
+  * Updated translations
+
+
+California 0.2.0 - 30 September 2014
+------------------------------------
+
+  * F1 Help (thanks to Jim Campbell)
+  * Migrate to GTK+ 3.12
+  * Quick Add improvements
+  * Display recurring event information as plain language summary
+  * Remove calendar from EDS
+  * Various UI improvements
+  * Updated translations
+
+
+California 0.1.4 - 19 August 2014
+---------------------------------
+
+  * Rebuild .c files when configuration changes
+  * Updated German translations
+
+
+California 0.1.3 - 15 August 2014
+---------------------------------
+
+  * Generic CalDAV support
+  * Numerous Quick Add parser improvements
+  * Use system/locale's defined first day of week
+  * Move events between calendars
+  * Improved event viewing and editing
+  * Various bug fixes and improvements
+  * Updated translations
+
+California 0.1.2 - 18 July 2014
+-------------------------------
+
+  * Create, remove, and update recurring events
+  * Quick Add parsing improvements
+  * Event description, location support
+  * Zoom display
+  * Various bug fixes
+  * Updated translations
+
+
+California 0.1.1 - 23 May 2014
+------------------------------
+
+  * Added week view.
+  * Rename calendars in the calendar manager.
+
+
+California 0.1.0 - 1 May 2014
+-----------------------------
+
+  * First unstable release.
+  * Month view of Evolution Data Server (EDS) calendars.
+  * Add, remove, update events.
+  * Quick add (natural language parser) events.
+  * Add WebCal, Google calendars.
+

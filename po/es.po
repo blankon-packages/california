@@ -1,0 +1,1743 @@
+# Spanish translation for california.
+# Copyright (C) 2014 california's COPYRIGHT HOLDER
+# This file is distributed under the same license as the california package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: california master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=california&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-01-07 04:10+0000\n"
+"PO-Revision-Date: 2016-01-07 16:25+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../data/california.appdata.xml.in.h:1
+msgid "GNOME 3 calendar"
+msgstr "Calendario de GNOME 3"
+
+#: ../data/california.appdata.xml.in.h:2
+msgid ""
+"California is a new calendar application for GNOME 3 designed to let you "
+"work with your calendars quickly and easily. It provides month and week "
+"views of your schedule and easy ways to add and update events, including a "
+"Quick Add feature which allows you to type the event details and have them "
+"added to your calendar without filling out a form."
+msgstr ""
+"California es nueva aplicación de calendario para GNOME 3, diseñada para "
+"permitirle trabajar con sus calendarios rápida y fácilmente. Proporciona "
+"vistas de mes y semana en su planificación y ofrece varias maneras sencillas "
+"de añadir y actualizar eventos, incluyendo la característica Añadir "
+"rápidamente, que le permite escribir los detalles del evento y añadirlo al "
+"calendario sin rellenar un formulario."
+
+#: ../data/california.appdata.xml.in.h:3
+msgid ""
+"California is currently in beta development and has a limited but growing "
+"set of features:"
+msgstr ""
+"Actualmente, California está en la fase «beta» del desarrollo, y tiene un "
+"limitado pero creciente conjunto de características:"
+
+#: ../data/california.appdata.xml.in.h:4
+msgid "Modern, clean interface"
+msgstr "Interfaz clara y moderna"
+
+#: ../data/california.appdata.xml.in.h:5
+msgid "Month and week view of your schedule"
+msgstr "Vista semanal y mensual de su calendario"
+
+#: ../data/california.appdata.xml.in.h:6
+msgid "Quick setup (if any is required at all)"
+msgstr "Configuración rápida (si se necesita)"
+
+#: ../data/california.appdata.xml.in.h:7
+msgid "Integrates with Evolution Data Server"
+msgstr "Se integra con el servidor de datos de Evolution"
+
+#: ../data/california.appdata.xml.in.h:8
+msgid "Quickly add events with a natural-language parser"
+msgstr "Añadir eventos rápidamente con un analizador de lenguaje natural"
+
+#: ../data/california.appdata.xml.in.h:9
+msgid "Works with Google, WebCal, and CalDAV servers"
+msgstr "Funciona con servidores Google, WebCal, y CalDAV"
+
+#: ../data/california.desktop.in.in.h:1
+#: ../src/application/california-application.vala:19
+msgid "California"
+msgstr "California"
+
+#: ../data/california.desktop.in.in.h:2
+#: ../src/application/california-application.vala:20
+msgid "GNOME 3 Calendar"
+msgstr "Calendario de GNOME 3"
+
+#: ../data/california.desktop.in.in.h:3
+msgid "Event;Events;Schedule;"
+msgstr "Evento;Eventos;Calendario;"
+
+#: ../src/activator/activator.vala:36
+msgid "Web calendar (.ics or webcal:)"
+msgstr "Calendario web (.ics . webcal:)"
+
+#: ../src/activator/activator.vala:37
+msgid "Google Calendar"
+msgstr "Calendario de Google"
+
+#: ../src/activator/activator.vala:38
+msgid "CalDAV"
+msgstr "CalDAV"
+
+#: ../src/activator/generic/generic-subscribe.vala:100
+#, c-format
+msgid "Unable to subscribe to calendar at %s: %s"
+msgstr "No se pudo suscribir al calendario en %s: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:89
+#: ../src/rc/activator-google-authenticating-pane.ui.h:3
+msgid "Authenticating…"
+msgstr "Autenticando…"
+
+#: ../src/activator/google/google-authenticating-pane.vala:97
+msgid "Unable to authenticate with Google Calendar service"
+msgstr "No se pudo autenticar con el servicio de calendario de Google"
+
+#: ../src/activator/google/google-authenticating-pane.vala:105
+msgid "Unable to authenticate: Incorrect account name or password"
+msgstr "No se pudo autenticar: nombre de cuenta o contraseña no válidos"
+
+#: ../src/activator/google/google-authenticating-pane.vala:107
+#, c-format
+msgid "Unable to authenticate: %s"
+msgstr "No se pudo autenticar: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:125
+#, c-format
+msgid "Unable to retrieve calendar list: %s"
+msgstr "No se pudo obtener la lista de calendarios: %s"
+
+#: ../src/activator/google/google-authenticating-pane.vala:131
+msgid "Authenticated"
+msgstr "Autenticado"
+
+#. "None" as in "no people"
+#: ../src/activator/google/google-calendar-list-pane.vala:65
+#: ../src/event-editor/event-editor-main-card.vala:201
+msgid "None"
+msgstr "Niguno"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:158
+#, c-format
+msgid "Bad Google URI \"%s\""
+msgstr "URI «%s» de Google incorrecto"
+
+#: ../src/activator/google/google-calendar-list-pane.vala:166
+#: ../src/activator/google/google-calendar-list-pane.vala:188
+#, c-format
+msgid "Unable to subscribe to %s: %s"
+msgstr "No se pudo suscribir a %s: %s"
+
+#: ../src/application/california-application.vala:21
+msgid "Copyright 2014-2015 Yorba Foundation"
+msgstr "Copyright 2014-2015 Fundación Yorba"
+
+#: ../src/application/california-application.vala:23
+msgid "Visit California's home page"
+msgstr "Visitar la página web de California"
+
+#: ../src/application/california-application.vala:187
+#, c-format
+msgid "Unable to open California: %s"
+msgstr "No se pudo abrir California: %s"
+
+#: ../src/application/california-application.vala:324
+#, c-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+#. Translators: add your name and email address to receive credit in the About dialog
+#. For example: Yamada Taro <yamada.taro@example.com>
+#: ../src/application/california-application.vala:330
+msgid "translator-credits"
+msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2014"
+
+#: ../src/application/california-commandline.vala:9
+msgid "[.ics FILE...]"
+msgstr "[ARCHIVO .ics...]"
+
+#: ../src/application/california-commandline.vala:15
+msgid "Display program version"
+msgstr "Mostrar la versión del programa"
+
+#: ../src/application/california-commandline.vala:32
+msgid "To log debug to standard out:"
+msgstr "Para mostrar el registro de depuración por la salia estándar:"
+
+#: ../src/application/california-commandline.vala:33
+msgid "$ G_MESSAGES_DEBUG=all california"
+msgstr "$ G_MESSAGES_DEBUG=all california"
+
+#: ../src/application/california-commandline.vala:34
+msgid "Please report problems and requests to:"
+msgstr "Informe de problemas y haga sus peticiones en:"
+
+#: ../src/application/california-commandline.vala:40
+#, c-format
+msgid "Unknown options: %s\n"
+msgstr "Opciones desconocidas: %s\n"
+
+#. Prints a span of dates, i.e. "Monday, January 3 to Thursday, January 6"
+#. A span of time, i.e. "3:30pm to 4:30pm"
+#. date formatting: "<Start Date> to <End Date>"
+#: ../src/calendar/calendar-date-span.vala:95
+#: ../src/calendar/calendar-exact-time-span.vala:184
+#: ../src/view/week/week-controller.vala:192
+#, c-format
+msgid "%s to %s"
+msgstr "%s a %s"
+
+#: ../src/calendar/calendar-date.vala:387
+msgid "Today"
+msgstr "Hoy"
+
+#. See get_day_of_week_of_month().
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "last Monday"
+msgstr "último lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "first Monday"
+msgstr "primer lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "second Monday"
+msgstr "segundo lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "third Monday"
+msgstr "tercer lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fourth Monday"
+msgstr "cuarto lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:60
+msgid "fifth Monday"
+msgstr "quinto lunes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "last Tuesday"
+msgstr "último martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "first Tuesday"
+msgstr "primer martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "second Tuesday"
+msgstr "segundo martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "third Tuesday"
+msgstr "tercer martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fourth Tuesday"
+msgstr "cuarto martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:61
+msgid "fifth Tuesday"
+msgstr "quinto martes"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "last Wednesday"
+msgstr "último miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "first Wednesday"
+msgstr "primer miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "second Wednesday"
+msgstr "segundo miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "third Wednesday"
+msgstr "tercer miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fourth Wednesday"
+msgstr "cuarto miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:62
+msgid "fifth Wednesday"
+msgstr "quinto miércoles"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "last Thursday"
+msgstr "último jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "first Thursday"
+msgstr "primer jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "second Thursday"
+msgstr "segundo jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "third Thursday"
+msgstr "tercer jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fourth Thursday"
+msgstr "cuarto jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:63
+msgid "fifth Thursday"
+msgstr "quinto jueves"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "last Friday"
+msgstr "último viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "first Friday"
+msgstr "primer viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "second Friday"
+msgstr "segundo viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "third Friday"
+msgstr "tercer viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fourth Friday"
+msgstr "cuarto viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:64
+msgid "fifth Friday"
+msgstr "quinto viernes"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "last Saturday"
+msgstr "último sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "first Saturday"
+msgstr "primer sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "second Saturday"
+msgstr "segundo sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "third Saturday"
+msgstr "tercer sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fourth Saturday"
+msgstr "cuarto sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:65
+msgid "fifth Saturday"
+msgstr "quinto sábado"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "last Sunday"
+msgstr "último domingo"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "first Sunday"
+msgstr "primer domingo"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "second Sunday"
+msgstr "segundo domingo"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "third Sunday"
+msgstr "tercer domingo"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fourth Sunday"
+msgstr "cuarto domingo"
+
+#: ../src/calendar/calendar-day-of-week.vala:66
+msgid "fifth Sunday"
+msgstr "quinto domingo"
+
+#. A span of time followed by the timezone, i.e. "3:30pm to 4:30pm EST"
+#: ../src/calendar/calendar-exact-time-span.vala:187
+#, c-format
+msgid "%s to %s %s"
+msgstr "%s a %s %s"
+
+#. A span of time with each timezone's indicated, i.e.
+#. "12:30AM EDT to 2:30PM EST"
+#: ../src/calendar/calendar-exact-time-span.vala:192
+#, c-format
+msgid "%s %s to %s %s"
+msgstr "%s %s a %s %s"
+
+#. Single-day timed event, print "<full date>, <full start time> to <full end time>",
+#. including year if not current year
+#. Date and time, i.e. "September 13, 4:30pm"
+#: ../src/calendar/calendar-exact-time-span.vala:200
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm
+#. 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:209
+#, c-format
+msgid ""
+"%s, %s\n"
+"%s, %s"
+msgstr ""
+"%s, %s\n"
+"%s, %s"
+
+#. Multi-day timed event, print "<full time>, <full date>" on both lines,
+#. including year if either not current year,
+#. *and* including timezone
+#. Prints two full time and date strings on separate lines, i.e.:
+#. 12 January 2012, 3:30pm PST
+#. 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:221
+#, c-format
+msgid ""
+"%s, %s %s\n"
+"%s, %s %s"
+msgstr ""
+"%s, %s %s\n"
+"%s, %s %s"
+
+#. Prints full time and date strings on a single line with timezone, i.e.:
+#. 12 January 2012, 3:30pm PST to 13 January 2013, 6:30am PST
+#: ../src/calendar/calendar-exact-time-span.vala:233
+#, c-format
+msgid "%s, %s %s to %s, %s %s"
+msgstr "%s, %s %s hasta el %s, %s %s"
+
+#. Prints full time and date strings on a single line, i.e.:
+#. 12 January 2012, 3:30pm to 13 January 2013, 6:30am
+#: ../src/calendar/calendar-exact-time-span.vala:244
+#, c-format
+msgid "%s, %s to %s, %s"
+msgstr "%s, %s hasta el %s, %s"
+
+#. The month and year according to locale preferences, i.e. "March 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:114
+#, no-c-format
+msgid "%B %Y"
+msgstr "%B %Y"
+
+#. The abbreviated month and year according to locale preferences, i.e. "Mar 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:119
+#, no-c-format
+msgid "%b %Y"
+msgstr "%b %Y"
+
+#. A "pretty" date according to locale preferences, i.e. "Monday, March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:124
+#, no-c-format
+msgid "%A, %B %e, %Y"
+msgstr "%A, %B %e, %Y"
+
+#. A "pretty" date with no year according to locale preferences, i.e. "Monday, March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:129
+#, no-c-format
+msgid "%A, %B %e"
+msgstr "%A, %B %e"
+
+#. A "pretty" date abbreviated according to locale preferences, i.e. "Mon, Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:134
+#, no-c-format
+msgid "%a, %b %e, %Y"
+msgstr "%a, %b %e, %Y"
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e.
+#. "Mon, Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:140
+#, no-c-format
+msgid "%a, %b %e"
+msgstr "%a, %b %e"
+
+#. A "pretty" date with no day of week according to locale preferences, i.e. "March 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:145
+#, no-c-format
+msgid "%B %e, %Y"
+msgstr "%e de %B, %Y"
+
+#. A "pretty" date abbreviated with no day of week according to locale preferences,
+#. i.e. "Mar 10, 2014"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:151
+#, no-c-format
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. A "pretty" date with no day of week or year according to locale preferences, i.e. "March 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:156
+#, no-c-format
+msgid "%B %e"
+msgstr "%Y %B"
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "Mar 10"
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:162
+#, no-c-format
+msgid "%b %e"
+msgstr "%Y %b"
+
+#. A "pretty" date compacted according to locale preferences, i.e. "Mon 3/10/2014"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:168
+#, no-c-format
+msgid "%a %x"
+msgstr "%a %x"
+
+#. A "pretty" date abbreviated and no year according to locale preferences, i.e. "Mon 3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:174
+#, no-c-format
+msgid "%a %m/%d"
+msgstr "%a %m/%d"
+
+#. A "pretty" date abbreviated with no day of week or year according to locale preferences,
+#. i.e. "3/10"
+#. Leading zeroes will be stripped.
+#. See http://www.cplusplus.com/reference/ctime/strftime/ for format reference
+#: ../src/calendar/calendar.vala:181
+#, no-c-format
+msgid "%m/%d"
+msgstr "%m/%d"
+
+#. Ante meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:186
+msgid "am"
+msgstr "am"
+
+#. Brief ante meridiem, i.e. "am" -> "a"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:191
+msgid "a"
+msgstr "a"
+
+#. Post meridiem
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:196
+msgid "pm"
+msgstr "pm"
+
+#. Brief post meridiem, i.e. "pm" -> "p"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:201
+msgid "p"
+msgstr "p"
+
+#. The 12-hour time with minute and meridiem ("am" or "pm"), i.e. "5:06pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:206
+#, c-format
+msgid "%d:%02d%s"
+msgstr "%d:%02d%s"
+
+#. The 12-hour time with minute, seconds, and meridiem ("am" or "pm"), i.e. "5:06:31pm"
+#. (Please translate even if 24-hour clock used in your locale; this allows for GNOME time
+#. format user settings to be honored)
+#: ../src/calendar/calendar.vala:211
+#, c-format
+msgid "%d:%02d:%02d%s"
+msgstr "%d:%02d:%02d%s"
+
+#. The 24-hour time with minutes, i.e. "17:06"
+#: ../src/calendar/calendar.vala:214
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. The 24-hour time with minutes and seconds, i.e. "17:06:31"
+#: ../src/calendar/calendar.vala:217
+#, c-format
+msgid "%02d:%02d:%02d"
+msgstr "%02d:%02d:%02d"
+
+#. Used by quick-add to indicate the user wants to create an event at midnight.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:227
+msgid "midnight"
+msgstr "medianoche"
+
+#. Used by quick-add to indicate the user wants to create an event at noon.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/calendar/calendar.vala:231
+msgid "noon"
+msgstr "mediodía"
+
+#. Used by quick-add to indicate the user wants to create an event for today.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:72
+msgid "today"
+msgstr "hoy"
+
+#. Used by quick-add to indicate the user wants to create an event for tomorrow.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:76
+msgid "tomorrow"
+msgstr "mañana"
+
+#. Used by quick-add to indicate the user wants to create an event for yesterday.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:80
+msgid "yesterday"
+msgstr "ayer"
+
+#. Used by quick-add to indicate the user wants to create a daily recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:84
+msgid "daily"
+msgstr "diario"
+
+#. Used by quick-add to indicate the user wants to create a weekly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:88
+msgid "weekly"
+msgstr "semanal"
+
+#. Used by quick-add to indicate the user wants to create a yearly recurring event
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:92
+msgid "yearly"
+msgstr "anual"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekday
+#. (in most Western countries, this means Monday through Friday, i.e. the work week)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:99
+msgid "weekday;weekdays;"
+msgstr "laborable;laborables;"
+
+#. Used by quick-add to indicate the user wants to create an event for every weekend
+#. (in most Western countries, this means Saturday and Sunday, i.e. non-work days)
+#. Common abbreviations (without punctuation) should be included.  Each word must be separated
+#. by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:106
+msgid "weekend;weekends;"
+msgstr "sábado;domingo;"
+
+#. Used by quick-add to convert a user's years unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:111
+msgid "year;years;yr;yrs;"
+msgstr "año;años;"
+
+#. Used by quick-add to convert a user's month unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:116
+msgid "month;months;mo;mos;"
+msgstr "mes;meses;m;"
+
+#. Used by quick-add to convert a user's week unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:121
+msgid "week;weeks;wk;weeks;"
+msgstr "semana;semanas;"
+
+#. Used by quick-add to convert a user's day unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:126
+msgid "day;days;"
+msgstr "día;días;"
+
+#. Used by quick-add to convert a user's hours unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:131
+msgid "hour;hours;hr;hrs"
+msgstr "hora;horas;hr;hrs;"
+
+#. Used by quick-add to convert a user's minute unit into an internal value.  Common abbreviations
+#. (without punctuation) should be included.  Each word must be separated by semi-colons.
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:136
+msgid "minute;minutes;min;mins"
+msgstr "minuto;minutos;min;mins"
+
+#. Used by quick-add to determine if the word is a COMMON preposition (indicating linkage or a
+#. connection).  Each word must be separate by semi-colons.
+#. These words should not be duplicated in another other preposition list.
+#. This list can be empty but that will limit the parser or cause unexpected results.
+#. Examples: "wednesday and thursday", "monday or friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:144
+msgid "and;or;"
+msgstr "y;o;"
+
+#. Used by quick-add to determine if the word is a TIME preposition (indicating a
+#. specific time of day, not a duration).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "at 9am", "from 10pm to 11:30pm", "on monday", "until June 3rd", "this Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:153
+msgid "at;from;to;on;until;this;"
+msgstr "a las;de;a;el;hasta;este;"
+
+#. Used by quick-add to determine if the word is a DURATION preposition (indicating a
+#. a duration of time, not a specific time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Examples: "for 3 hours", "for 90 minutes"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:162
+msgid "for;"
+msgstr "para;"
+
+#. Used by quick-add to determine if the word is a DELAY preposition (indicating a specific
+#. time from the current moment).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to
+#. be duplicated in the location prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "in 3 hours" (meaning 3 hours from now)
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:171
+msgid "in;"
+msgstr "dentro de;"
+
+#. Used by quick-add to determine if the word is a RECURRING preposition (indicating a
+#. regular occurrance in time).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in the location
+#. prepositions list (elsewhere) but not another time list.
+#. The list can be empty, but that will limit the parser.
+#. Example: "every 3 days", "every Friday"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:180
+msgid "every;"
+msgstr "cada;"
+
+#. Used by quick-add to determine if the word is a LOCATION preposition (indicating a
+#. specific place).  Each word must be separated by semi-colons.
+#. It's allowable for some or all of these words to be duplicated in
+#. the time prepositions list (elsewhere).  The list can be empty, but that will limit the
+#. parser.
+#. Example: "at supermarket", "at Eiffel Tower"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:189
+msgid "at;"
+msgstr "en;"
+
+#. Used by quick-add to strip date numbers of common ordinal suffices.  Each word must be
+#. separated by semi-colons.
+#. The list can be empty, but that will limit the parser if your language supports ordinal
+#. suffixes.
+#. Example: "1st", "2nd", "3rd", "4th"
+#. For more information see https://wiki.gnome.org/Apps/California/TranslatingQuickAdd
+#: ../src/component/component.vala:197
+msgid "st;nd;rd;th"
+msgstr "º;"
+
+#: ../src/component/component-recurrence-rule.vala:599
+#, c-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d día"
+msgstr[1] "%d días"
+
+#: ../src/component/component-recurrence-rule.vala:602
+#, c-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d semana"
+msgstr[1] "%d semanas"
+
+#: ../src/component/component-recurrence-rule.vala:613
+#, c-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mes"
+msgstr[1] "%d meses"
+
+#: ../src/component/component-recurrence-rule.vala:621
+#, c-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d año"
+msgstr[1] "%d años"
+
+#. As in, "Repeats every day, 2 times"
+#: ../src/component/component-recurrence-rule.vala:636
+#, c-format
+msgid "Repeats every %s, %s"
+msgstr "Se repite cada %s, %s"
+
+#: ../src/component/component-recurrence-rule.vala:637
+#: ../src/component/component-recurrence-rule.vala:720
+#: ../src/component/component-recurrence-rule.vala:765
+#: ../src/component/component-recurrence-rule.vala:805
+#: ../src/component/component-recurrence-rule.vala:842
+#, c-format
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] "%d vez"
+msgstr[1] "%d veces"
+
+#. As in, "Repeats every week until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:643
+#, c-format
+msgid "Repeats every %s until %s"
+msgstr "Se repite cada %s hasta %s"
+
+#. As in, "Repeats every month until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:650
+#, c-format
+msgid "Repeats every %s until %s, %s"
+msgstr "Se repite cada %s hasta %s, %s"
+
+#. As in, "Repeats every day"
+#: ../src/component/component-recurrence-rule.vala:657
+#, c-format
+msgid "Repeats every %s"
+msgstr "Se repite cada %s"
+
+#. look for expressible patterns
+#: ../src/component/component-recurrence-rule.vala:679
+msgid "every day"
+msgstr "cada día"
+
+#: ../src/component/component-recurrence-rule.vala:684
+msgid "the weekend"
+msgstr "el fin de semana"
+
+#: ../src/component/component-recurrence-rule.vala:689
+msgid "weekdays"
+msgstr "días de la semana"
+
+#. Separator between days of the week, i.e. "Monday, Tuesday, Wednesday"
+#: ../src/component/component-recurrence-rule.vala:697
+msgid ", "
+msgstr ", "
+
+#. As in, "Repeats every week on Monday, Tuesday, 3 times"
+#. As in, "Repeats every month on day 4, 3 times"
+#. As in, "Repeats every year on 3 March 2014, 2 times"
+#: ../src/component/component-recurrence-rule.vala:719
+#: ../src/component/component-recurrence-rule.vala:804
+#: ../src/component/component-recurrence-rule.vala:841
+#, c-format
+#| msgid "%s, %s to %s, %s"
+msgid "Repeats every %s on %s, %s"
+msgstr "Se repite cada %s, el %s, %s"
+
+#. As in, "Repeats every week on Thursday until Sept. 2, 2014"
+#. As in, "Repeats every month on day 21 until Sept. 2, 2014"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:726
+#: ../src/component/component-recurrence-rule.vala:811
+#: ../src/component/component-recurrence-rule.vala:848
+#, c-format
+msgid "Repeats every %s on %s until %s"
+msgstr "Se repite cada %s el %s hasta %s"
+
+#. As in, "Repeats every week on Friday, Saturday until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every month on day 20 until Sept. 2, 2014, 8:00pm"
+#. As in, "Repeats every year on 3 March 2014 until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:733
+#: ../src/component/component-recurrence-rule.vala:818
+#: ../src/component/component-recurrence-rule.vala:855
+#, c-format
+msgid "Repeats every %s on %s until %s, %s"
+msgstr "Se repite cada %s el %s hasta %s, %s"
+
+#. As in, "Repeats every week on Monday, Wednesday, Friday"
+#. As in, "Repeats every month on day 5"
+#. As in, "Repeats every year on 3 March 2014"
+#: ../src/component/component-recurrence-rule.vala:740
+#: ../src/component/component-recurrence-rule.vala:825
+#: ../src/component/component-recurrence-rule.vala:862
+#, c-format
+msgid "Repeats every %s on %s"
+msgstr "Se repite cada %s, el %s"
+
+#. As in, "Repeats every month on the first Tuesday, 3 times"
+#: ../src/component/component-recurrence-rule.vala:764
+#, c-format
+msgid "Repeats every %s on the %s, %s"
+msgstr "Se repite cada %s, el %s, %s"
+
+#. As in, "Repeats every month on the second Monday until Sept. 2, 2014"
+#: ../src/component/component-recurrence-rule.vala:771
+#, c-format
+msgid "Repeats every %s on the %s until %s"
+msgstr "Se repite cada %s el %s hasta %s"
+
+#. As in, "Repeats every month on the last Friday until Sept. 2, 2014, 8:00pm"
+#: ../src/component/component-recurrence-rule.vala:778
+#, c-format
+msgid "Repeats every %s on the %s until %s, %s"
+msgstr "Se repite cada %s el %s hasta %s, %s"
+
+#. As in, "Repeats every month on the third Tuesday"
+#: ../src/component/component-recurrence-rule.vala:785
+#, c-format
+msgid "Repeats every %s on the %s"
+msgstr "Se repite cada %s el %s"
+
+#. As in, "Repeats on day 4 of the month"
+#: ../src/component/component-recurrence-rule.vala:800
+#, c-format
+msgid "day %d"
+msgstr "día %d"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Send invite"
+msgstr "Enviar invitación"
+
+#: ../src/event-editor/event-editor-attendees-card.vala:54
+msgid "Don't send invite"
+msgstr "No enviar invitación"
+
+#: ../src/event-editor/event-editor-main-card.vala:74
+#: ../src/event-editor/event-editor-main-card.vala:77
+#: ../src/host/host-show-event.vala:92 ../src/host/host-show-event.vala:299
+#: ../src/rc/activator-generic-subscribe.ui.h:5
+#: ../src/rc/activator-google-authenticating-pane.ui.h:1
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:2
+#: ../src/rc/activator-google-login-pane.ui.h:1
+#: ../src/rc/activator-instance-list.ui.h:1
+#: ../src/rc/event-editor-attendees-card.ui.h:10
+#: ../src/rc/event-editor-date-time-card.ui.h:4
+#: ../src/rc/event-editor-recurring-card.ui.h:24
+#: ../src/rc/host-import-calendar.ui.h:1
+#: ../src/rc/manager-remove-calendar.ui.h:1
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../src/event-editor/event-editor-main-card.vala:75
+msgid "Save A_ll Events"
+msgstr "Guardar _todos los eventos"
+
+#: ../src/event-editor/event-editor-main-card.vala:76
+msgid "Save _This Event"
+msgstr "Guardar _este evento"
+
+#: ../src/event-editor/event-editor-main-card.vala:212
+msgid "It's complicated…"
+msgstr "Es complicado…"
+
+#: ../src/event-editor/event-editor-main-card.vala:215
+msgid "Never"
+msgstr "Nunca"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "_Save"
+msgstr "_Guardar"
+
+#: ../src/event-editor/event-editor-main-card.vala:217
+msgid "C_reate"
+msgstr "C_rear"
+
+#. Email address followed by common separator, i.e. "alice@example.com, bob@example.com"
+#. Email separator, i.e. "alice@example.com, bob@example.com"
+#: ../src/event-editor/event-editor-main-card.vala:250
+#: ../src/event-editor/event-editor-main-card.vala:605
+#, c-format
+msgid "%s, "
+msgstr "%s, "
+
+#: ../src/event-editor/event-editor-main-card.vala:370
+#: ../src/host/host-quick-create-event.vala:171
+msgid "Unable to create event: calendar must be specified"
+msgstr "No se pudo crear el evento: se debe especificar el calendario"
+
+#: ../src/event-editor/event-editor-main-card.vala:391
+#: ../src/host/host-quick-create-event.vala:190
+#, c-format
+msgid "Unable to create event: %s"
+msgstr "No se pudo crear el evento: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:396
+msgid "Unable to update event: calendar must be specified"
+msgstr "No se pudo actualizar el evento: se debe especificar el calendario"
+
+#: ../src/event-editor/event-editor-main-card.vala:445
+#, c-format
+msgid "Unable to update event: %s"
+msgstr "No se pudo actualizar el evento: %s"
+
+#. "invite.ics" is the name of the file for an event invite delivered via email ...
+#. please translate but keep the .ics extension, as that's common to most calendar
+#. applications
+#: ../src/event-editor/event-editor-main-card.vala:474
+msgid "invite.ics"
+msgstr "invitacion.ics"
+
+#: ../src/event-editor/event-editor-main-card.vala:481
+#, c-format
+msgid "Unable to export .ics to %s: %s"
+msgstr "No se pudo exportar el .ics a %s: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Event invitation"
+msgstr "Invitación al evento"
+
+#: ../src/event-editor/event-editor-main-card.vala:501
+msgid "Updated event invitation"
+msgstr "Invitación al evento actualizada"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Invitation: %s"
+msgstr "Invitación: %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:503
+#, c-format
+msgid "Updated invitation: %s"
+msgstr "Invitación actualizada: %s"
+
+#. Invitation: <summary> at <location>
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Invitation: %s at %s"
+msgstr "Invitación actualizada: %s en %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:506
+#, c-format
+msgid "Updated invitation: %s at %s"
+msgstr "Invitación actualizada: %s en %s"
+
+#: ../src/event-editor/event-editor-main-card.vala:522
+#, c-format
+#| msgid "Unable to create event: %s"
+msgid "Unable to launch mail client: %s"
+msgstr "No se puede lanzar el cliente de correo: %s"
+
+#. Salutations for an email
+#: ../src/event-editor/event-editor-main-card.vala:530
+msgid "Hello,"
+msgstr "Hola,"
+
+#: ../src/event-editor/event-editor-main-card.vala:533
+msgid "Attached is an invitation to a new event:"
+msgstr "El adjunto es una invitación a un evento nuevo:"
+
+#: ../src/event-editor/event-editor-main-card.vala:534
+msgid "Attached is an updated event invitation:"
+msgstr "El adjunto es una invitación a un evento actualizado:"
+
+#. Date/time of an event
+#: ../src/event-editor/event-editor-main-card.vala:550
+#, c-format
+msgid "When: %s"
+msgstr "Cuándo: %s"
+
+#. Location
+#. Location of an event
+#: ../src/event-editor/event-editor-main-card.vala:563
+#, c-format
+msgid "Where: %s"
+msgstr "Dónde: %s"
+
+#. Who organized (scheduled or planned) the event
+#: ../src/event-editor/event-editor-main-card.vala:573
+#, c-format
+msgid "Organizer: %s"
+msgstr "Organizador: %s"
+
+#. People attending event
+#: ../src/event-editor/event-editor-main-card.vala:583
+#, c-format
+msgid "Guest: %s"
+msgid_plural "Guests: %s"
+msgstr[0] "Invitado: %s"
+msgstr[1] "Invitados: %s"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:443
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mes"
+msgstr[1] "meses"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:447
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semana"
+msgstr[1] "semanas"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:451
+msgid "year"
+msgid_plural "years"
+msgstr[0] "año"
+msgstr[1] "años"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:456
+msgid "day"
+msgid_plural "days"
+msgstr[0] "día"
+msgstr[1] "días"
+
+#: ../src/event-editor/event-editor-recurring-card.vala:468
+msgid "event"
+msgid_plural "events"
+msgstr[0] "evento"
+msgstr[1] "eventos"
+
+#: ../src/host/host-import-calendar.vala:33
+msgid "Select calendar to import event into:"
+msgid_plural "Select calendar to import events into:"
+msgstr[0] "Seleccionar calendario en el que importar el evento:"
+msgstr[1] "Seleccionar calendario en el que importar los eventos:"
+
+#: ../src/host/host-main-window.vala:98
+msgid "_Today"
+msgstr "_Hoy"
+
+#: ../src/host/host-main-window.vala:167
+msgid "Jump to today's date (Ctrl+T)"
+msgstr "Saltar a la fecha de hoy (Ctrl+T)"
+
+#: ../src/host/host-main-window.vala:185
+msgid "Quick add event (Ctrl+N)"
+msgstr "Añadir un evento rápido (Ctrl+N)"
+
+#: ../src/host/host-main-window.vala:191
+msgid "Calendars (Ctrl+L)"
+msgstr "Calendarios (Ctrl+L)"
+
+#: ../src/host/host-main-window.vala:506
+#, c-format
+msgid "Unable to edit event: %s"
+msgstr "No se pudo editar el evento: %s"
+
+#: ../src/host/host-quick-create-event.vala:79
+msgid "Example: Dinner at Tadich Grill 7:30pm"
+msgstr "Ejemplo: cena en restaurante italiano a las 19:30"
+
+#: ../src/host/host-quick-create-event.vala:81
+msgid "Example: Dinner at Tadich Grill"
+msgstr "Ejemplo: cena en restaurante italiano"
+
+#: ../src/host/host-quick-create-event.vala:85
+msgid "Example: Dinner at Tadich Grill 7:30pm tomorrow"
+msgstr "Ejemplo: cena en restaurante italiano a las 19:30 mañana"
+
+#: ../src/host/host-quick-create-event.vala:99
+#, c-format
+msgid "Error opening help: %s"
+msgstr "Error al abrir la ayuda: %s"
+
+#: ../src/host/host-show-event.vala:87
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../src/host/host-show-event.vala:88
+msgid "A_ll Events"
+msgstr "_Todos los eventos"
+
+#: ../src/host/host-show-event.vala:89
+msgid "_This Event"
+msgstr "_Este evento"
+
+#: ../src/host/host-show-event.vala:91
+msgid "This & _Future Events"
+msgstr "Este evento y los _futuros"
+
+#: ../src/host/host-show-event.vala:98
+msgid "Edit event"
+msgstr "Editar evento"
+
+#: ../src/host/host-show-event.vala:99 ../src/host/host-show-event.vala:297
+msgid "Export event as .ics"
+msgstr "Exportar evento como .ics"
+
+#: ../src/host/host-show-event.vala:100
+msgid "Delete event"
+msgstr "Eliminar evento"
+
+#: ../src/host/host-show-event.vala:174
+#: ../src/rc/event-editor-attendees-card.ui.h:2
+#: ../src/rc/event-editor-main-card.ui.h:12
+msgid "Organizer"
+msgid_plural "Organizers"
+msgstr[0] "Organizador"
+msgstr[1] "Organizadores"
+
+#: ../src/host/host-show-event.vala:185
+msgid "Guest"
+msgid_plural "Guests"
+msgstr[0] "Invitado"
+msgstr[1] "Invitados"
+
+#: ../src/host/host-show-event.vala:300
+msgid "E_xport"
+msgstr "E_xportar"
+
+#. This is the suggested filename for saving (exporting) an event.  The .ics file extension
+#. should always be present no matter the translation, as many systems rely on it to detect
+#. the file type
+#: ../src/host/host-show-event.vala:304
+msgid "event.ics"
+msgstr "evento.ics"
+
+#: ../src/host/host-show-event.vala:311
+#| msgid "Create event"
+msgid "Export _master event"
+msgstr "Exportar evento _maestro"
+
+#: ../src/host/host-show-event.vala:333
+#, c-format
+#| msgid "Unable to edit event: %s"
+msgid "Unable to export event as file: %s"
+msgstr "No se puede exportar el evento como un archivo: %s"
+
+#. No number is supplied because the number of events removed is indefinite in certain
+#. situations ... plural text should simply be for "more than one"
+#: ../src/host/host-show-event.vala:360
+#, c-format
+msgid "Unable to remove event: %s"
+msgid_plural "Unable to remove events: %s"
+msgstr[0] "No se pudo quitar el evento: %s"
+msgstr[1] "No se pudieron quitar los eventos: %s"
+
+#: ../src/manager/manager-calendar-list-item.vala:92
+msgid "Calendar is read-only"
+msgstr "Calendario de sólo elctura"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+#| msgid "Calendar visibility"
+msgid "Calendar is default"
+msgstr "Calendario predeterminado"
+
+#: ../src/manager/manager-calendar-list-item.vala:104
+msgid "Make this calendar default"
+msgstr "Hacer que este calendario sea el predeterminado"
+
+#: ../src/manager/manager-calendar-list-item.vala:117
+msgid "Server sends event invitations"
+msgstr "El servidor envía invitaciones al evento"
+
+#: ../src/manager/manager-calendar-list-item.vala:118
+msgid "Server does not send event invitations"
+msgstr "El servidor no envía invitaciones a eventos"
+
+#: ../src/manager/manager-remove-calendar.vala:39
+#, c-format
+msgid ""
+"This will remove the %s local calendar from your computer.  All associated "
+"information will be deleted permanently."
+msgstr ""
+"Esto eliminará el calendario local %s de su equipo.  Toda la información "
+"asociada se perderá de manera permanente."
+
+#: ../src/manager/manager-remove-calendar.vala:41
+#, c-format
+msgid ""
+"This will remove the %s network calendar from your computer.  This will not "
+"affect information stored on the server."
+msgstr ""
+"Esto eliminará el calendario en red %s de su equipo.  Esto no afectará a la "
+"información guardada en el servidor."
+
+#: ../src/manager/manager-remove-calendar.vala:74
+#, c-format
+msgid "Unable to remove calendar: %s"
+msgstr "No se pudo quitar el calendario: %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/agenda/agenda-controller.vala:33
+msgid "Agenda"
+msgstr "Agenda"
+
+#: ../src/view/agenda/agenda-event-row.vala:109
+msgid "All day"
+msgstr "Todo el día"
+
+#. %s is a date, i.e. "Showing events until December 5, 2014"
+#: ../src/view/agenda/agenda-load-more-row.vala:38
+#, c-format
+msgid "Showing events until %s"
+msgstr "Mostrando eventos hasta %s"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/month/month-controller.vala:51
+msgid "Month"
+msgstr "Mes"
+
+#. *
+#. * @inheritDoc
+#.
+#: ../src/view/week/week-controller.vala:42
+msgid "Week"
+msgstr "Semana"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:1
+msgid "Calendar _name"
+msgstr "_Nombre del calendario"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:2
+msgid "_URL"
+msgstr "_URL"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:3
+#: ../src/rc/manager-calendar-list-item.ui.h:1
+msgid "Calendar color"
+msgstr "Color del calendario"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:4
+msgid "Select a color for the calendar"
+msgstr "Seleccionar un color para el calendario"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:6
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:3
+msgid "_Subscribe"
+msgstr "_Suscribir"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:7
+msgid "User name"
+msgstr "Nombre de usuario"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:8
+msgid ""
+"If supplied, your password will be requested when calendar is first accessed"
+msgstr ""
+"Si se proporciona, se le pedirá su contraseña cuando acceda al calendario "
+"por primera vez"
+
+#: ../src/rc/activator-generic-subscribe.ui.h:9
+msgid "optional"
+msgstr "opcional"
+
+#: ../src/rc/activator-google-authenticating-pane.ui.h:2
+msgid "_Try again"
+msgstr "In_tentarlo de nuevo"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:1
+msgid "My calendars"
+msgstr "Mis calendarios"
+
+#: ../src/rc/activator-google-calendar-list-pane.ui.h:4
+msgid "Other available calendars"
+msgstr "Otros calendarios disponibles"
+
+#: ../src/rc/activator-google-login-pane.ui.h:2
+msgid "_Login"
+msgstr "_Iniciar sesión"
+
+#: ../src/rc/activator-google-login-pane.ui.h:3
+msgid "Google _account name"
+msgstr "Nombre de la _cuenta de Google"
+
+#: ../src/rc/activator-google-login-pane.ui.h:4
+msgid "Google _password"
+msgstr "Contra_seña de Google"
+
+#: ../src/rc/activator-instance-list.ui.h:2
+msgid "_Add"
+msgstr "_Añadir"
+
+#: ../src/rc/app-menu.interface.h:1
+msgid "_Calendars"
+msgstr "_Calendarios"
+
+#: ../src/rc/app-menu.interface.h:2
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../src/rc/app-menu.interface.h:3
+msgid "_About"
+msgstr "_Acerca de"
+
+#: ../src/rc/app-menu.interface.h:4
+msgid "_Quit"
+msgstr "_Salir"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:1
+msgid "Add / remove guests"
+msgstr "Añadir/quitar invitados"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:3
+msgid "For example, alice@example.com"
+msgstr "Por ejemplo: irene@dominio.com"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:4
+msgid "Email address (required if guests are invited)"
+msgstr "Dirección de correo (requerida si hay invitados)"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:5
+msgid "For example, bob@example.com"
+msgstr "Por ejemplo: juan@dominio.com"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:6
+msgid "Email address"
+msgstr "Dirección de correo _electrónico"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:7
+msgid "A_dd Guest"
+msgstr "Aña_dir invitado"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:8
+msgid "_Remove Guest"
+msgstr "_Quitar invitado"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:9
+#: ../src/rc/event-editor-main-card.ui.h:10
+msgid "Guests"
+msgstr "Invitados"
+
+#: ../src/rc/event-editor-attendees-card.ui.h:11
+msgid "_Accept"
+msgstr "_Aceptar"
+
+#. As in "From 9pm to 10pm"
+#: ../src/rc/event-editor-date-time-card.ui.h:2
+msgid "to"
+msgstr "a"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:3
+msgid "_All-day event"
+msgstr "Evento de _todo el día"
+
+#: ../src/rc/event-editor-date-time-card.ui.h:5
+#: ../src/rc/event-editor-recurring-card.ui.h:25
+msgid "_OK"
+msgstr "_Aceptar"
+
+#: ../src/rc/event-editor-date-time-widget.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/rc/event-editor-main-card.ui.h:1
+msgid "Untitled event"
+msgstr "Evento sin título"
+
+#: ../src/rc/event-editor-main-card.ui.h:2
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../src/rc/event-editor-main-card.ui.h:3
+msgid "Time"
+msgstr "Hora"
+
+#: ../src/rc/event-editor-main-card.ui.h:4
+msgid "Set the start and end time"
+msgstr "Establecer la hora inicial y final"
+
+#: ../src/rc/event-editor-main-card.ui.h:5
+msgid "Recurrence"
+msgstr "Repetición"
+
+#: ../src/rc/event-editor-main-card.ui.h:6
+msgid "Add or remove recurrences of the event"
+msgstr "Añadir o quitar repeticiones de este evento"
+
+#: ../src/rc/event-editor-main-card.ui.h:7
+#: ../src/rc/host-quick-create-event.ui.h:4 ../src/rc/host-show-event.ui.h:4
+msgid "Calendar"
+msgstr "Calendario"
+
+#: ../src/rc/event-editor-main-card.ui.h:8
+msgid "_Description"
+msgstr "_Descripción"
+
+#: ../src/rc/event-editor-main-card.ui.h:9
+msgid "_Location"
+msgstr "_Ubicación"
+
+#: ../src/rc/event-editor-main-card.ui.h:11
+msgid "Add and remove invited guests"
+msgstr "Añadir o quitar invitados"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:1
+msgid "_Repeating event"
+msgstr "Evento pe_riódico"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:2
+msgid "Re_peats"
+msgstr "Se re_pite"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:3
+msgid "_Every"
+msgstr "_Cada"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:4
+msgid "En_ds"
+msgstr "Ter_mina"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:5
+msgid "_Starts"
+msgstr "_Empieza"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:6
+msgid "_On days"
+msgstr "_Los días"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:7
+msgid "Daily"
+msgstr "Diariamente"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:8
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:9
+msgid "Day of the week"
+msgstr "Día de la semana"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:10
+msgid "Day of the month"
+msgstr "Día del mes"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:11
+msgid "Yearly"
+msgstr "Anual"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:12
+msgid "_Sun"
+msgstr "_Dom"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:13
+msgid "_Mon"
+msgstr "_Lun"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:14
+msgid "_Tues"
+msgstr "_Mar"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:15
+msgid "_Wed"
+msgstr "M_ié"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:16
+msgid "T_hu"
+msgstr "_Jue"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:17
+msgid "_Fri"
+msgstr "Vi_e"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:18
+msgid "S_at"
+msgstr "Sá_b"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:19
+msgid "_Never"
+msgstr "_Nunca"
+
+#. As in, an event "ends on" a date
+#: ../src/rc/event-editor-recurring-card.ui.h:21
+msgid "_On"
+msgstr "_El"
+
+#. As in, "After n events"
+#: ../src/rc/event-editor-recurring-card.ui.h:23
+msgid "Aft_er"
+msgstr "D_espués"
+
+#: ../src/rc/event-editor-recurring-card.ui.h:26
+msgid ""
+"WARNING: California cannot edit this event's recurring criteria.\n"
+"• Press Cancel to keep the current criteria.\n"
+"• Press OK to overwrite the existing criteria with your changes."
+msgstr ""
+"Advertencia: California no puede editar los criterios recurrentes de este "
+"evento.\n"
+"• Pulse Cancelar para mantener los criterios actuales.\n"
+"• Pulse Aceptar para sobrescribir los criterios existentes con sus cambios."
+
+#: ../src/rc/host-import-calendar.ui.h:2
+msgid "_Import"
+msgstr "_Importar"
+
+#: ../src/rc/host-main-window-title.ui.h:1
+msgid "Previous (Alt+Left)"
+msgstr "Anterior (Alt+Izquierda)"
+
+#: ../src/rc/host-main-window-title.ui.h:2
+msgid "Next (Alt+Right)"
+msgstr "Siguiente (Alt+Derecha)"
+
+#: ../src/rc/host-quick-create-event.ui.h:1
+msgid "_Quick Add Event"
+msgstr "Añadir _rápido un evento "
+
+#: ../src/rc/host-quick-create-event.ui.h:2 ../src/rc/host-show-event.ui.h:1
+msgid "When"
+msgstr "Cuándo"
+
+#: ../src/rc/host-quick-create-event.ui.h:3
+msgid "What"
+msgstr "Qué"
+
+#: ../src/rc/host-quick-create-event.ui.h:5
+msgid "Quick Add help"
+msgstr "Ayuda de añadir rápido"
+
+#: ../src/rc/host-quick-create-event.ui.h:6
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../src/rc/host-quick-create-event.ui.h:7
+msgid "Edit event details"
+msgstr "Editar los detalles del evento"
+
+#: ../src/rc/host-quick-create-event.ui.h:8
+msgid "Create event"
+msgstr "Crear evento"
+
+#: ../src/rc/host-show-event.ui.h:2
+msgid "Where"
+msgstr "Dónde"
+
+#: ../src/rc/host-show-event.ui.h:3
+msgid "Organizers"
+msgstr "Organizadores"
+
+#: ../src/rc/host-show-event.ui.h:5
+msgctxt "Attendees of an event (who are not organizing it)"
+msgid "Guests"
+msgstr "Invitados"
+
+#: ../src/rc/manager-calendar-list.ui.h:1
+msgid "_Close"
+msgstr "_Cerrar"
+
+#: ../src/rc/manager-calendar-list.ui.h:2
+msgid "Add calendar"
+msgstr "Añadir calendario"
+
+#: ../src/rc/manager-calendar-list.ui.h:3
+msgid "Rename calendar"
+msgstr "Renombrar calendario"
+
+#: ../src/rc/manager-calendar-list.ui.h:4
+msgid "Remove calendar"
+msgstr "Eliminar calendario"
+
+#: ../src/rc/manager-calendar-list-item.ui.h:2
+msgid "Calendar visibility"
+msgstr "Visibilidad del calendario"
+
+#: ../src/rc/manager-remove-calendar.ui.h:2
+msgid "_Remove"
+msgstr "_Quitar"
+
+#: ../src/rc/manager-remove-calendar.ui.h:3
+msgid "Are you sure you want to remove this calendar?"
+msgstr "¿Está seguro de querer eliminar este calendario?"
+
+#: ../src/rc/view-agenda-event-row.ui.h:1
+msgid "Event has guests"
+msgstr "El evento tiene invitados"
+
+#: ../src/rc/view-agenda-event-row.ui.h:2
+msgid "Event is recurring"
+msgstr "El evento se repite"
+
+#. As in, "Load more events"
+#: ../src/rc/view-agenda-load-more-row.ui.h:2
+msgid "Load _More"
+msgstr "Cargar _más"
+
+#: ../src/rc/window-menu.interface.h:1
+msgid "Zoom _In"
+msgstr "_Ampliar"
+
+#: ../src/rc/window-menu.interface.h:2
+msgid "Zoom _Out"
+msgstr "_Reducir"
+
+#: ../src/rc/window-menu.interface.h:3
+msgid "_Normal Size"
+msgstr "Tamaño _normal"
+
+#~| msgid "Desktop Calendar"
+#~ msgid "Delete calendar"
+#~ msgstr "Eliminar calendario"
+
+#~ msgid "Re_peats…"
+#~ msgstr "Se re_pite…"
+
+#~ msgid "_Edit"
+#~ msgstr "_Editar"
+
+#~ msgid "Delete _This Event"
+#~ msgstr "Eliminar e_ste evento"
+
+#~ msgid "C_ancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "_Create"
+#~ msgstr "C_rear"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nombre:"
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "Re_peats..."
+#~ msgstr "Se re_pite..."
+
+#~ msgid "_Update"
+#~ msgstr "_Actualizar"
+
+#~ msgid "Remove in this series:"
+#~ msgstr "Quitar en estas series:"
+
+#~ msgid "%B"
+#~ msgstr "%B"
+
+#~ msgid "%b"
+#~ msgstr "%b"
+
+#~ msgid "%A"
+#~ msgstr "%A"
+
+#~ msgid "%x"
+#~ msgstr "%x"
