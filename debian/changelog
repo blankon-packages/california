@@ -1,3 +1,9 @@
+california (0.4.0-0blankon3) tambora; urgency=medium
+
+  * Add depends evolution-data-server
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Fri, 09 Dec 2016 15:07:25 +0800
+
 california (0.4.0-0blankon2) tambora; urgency=medium
 
   * Armhf support 
