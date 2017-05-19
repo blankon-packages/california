@@ -22,5 +22,4 @@ build-arch: configure
 	dh $@
 
 build: configure
-	dh $@
-
+	dh $@ --with=autoreconf
